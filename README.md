@@ -7,6 +7,7 @@
 <p>As the application grew, it gets very difficult for me to handle the application alone as I am individually supporting all things, designing, coding, testing, deployment, server configuration, marketing, social media presence, search engine optimization and mobile app as well.</p>
 <p>Therefore now I am open sourcing this application to the World so that any developer can be benefited by its code and enhance it and try to resolve the bugs that I failed to do so.</p>
 <p>Now come up to the technical part ;p</p>
+<p>The application supports text based messaging, image sharing, and audio message of one minute maximum.</p>
 <p>&nbsp;</p>
 <p><strong>Technologies Used:</strong><br /><br />ASP.NET MVC 5</p>
 <p>C#</p>
