@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<khoobsoorat>
+  <start>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+  </start>
+  <begin>
+    <msg>ALERT ROOM!!!!</msg>
+  </begin>
+  <communication>
+    <msg>Urdu Jokes ▶ http://www.JokePk.com</msg>
+    <msg>Funny Short Jokes ▶ http://www.funnyshortjokes.com/ </msg>
+    <msg>Kickass Humor ▶ http://kickasshumor.com/ </msg>
+    <msg>Jokes Warehouse ▶ http://www.jokeswarehouse.com/ </msg>
+    <msg>Great Clean Jokes ▶ http://www.greatcleanjokes.com/</msg>
+  </communication>
+  <end>
+    <msg>Byee</msg>
+    <msg>Ba Byee</msg>
+  </end>
+</khoobsoorat>

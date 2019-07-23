@@ -1,0 +1,120 @@
+﻿@using ChatApp.Web.Models
+@model User
+
+@{
+    Layout = "~/Views/Master/Main.cshtml";
+}
+
+@section jScript{
+
+    @Scripts.Render("~/homeJquery")
+    <script>
+
+        $(function () {
+
+            //To check whether ViewBag.Error has value or not
+            if ('@ViewBag.Error' != "")
+                $("body").animate({ scrollTop: $(".loginArea").offset().top }, 'fast');
+
+        });
+
+    </script>
+
+}
+
+<div class="intro">
+    <div class="area">
+        <div class="content">
+            <h1>Online Live Chat</h1>
+            <p>
+                <b>Chatfunky</b> is an online social communication platform which gives you live chat, send and receive instant text
+                and media messages, connect & collaborate, make friends and share ideas.
+            </p>
+            <input type="button" value="JOIN" class="mainJoinBtn" />
+        </div>
+    </div>
+</div>
+
+<div class="promotion">
+    <div class="content">
+        <h3>Join the NEXT Generation of Web Chatting</h3>
+        <p>Its build with robust and powerful technology which empowers its efficiency and effectiveness.</p>
+    </div>
+</div>
+
+<div class="social">
+    <div class="features">
+        <div class="featureBlock">
+            <div class="imgBlock" style="background-image: url('/content/images/feature1.png'); background-size: 60% 40%;"></div>
+            <h2>Chat Conversations</h2>
+            <p>Chat directly with your friends and family!</p>
+        </div>
+        <div class="featureBlock">
+            <div class="imgBlock" style=" background-image: url('/content/images/feature3.png'); background-size: 50% 50%;"></div>
+            <h2>Share Photo</h2>
+            <p>Share photos with your friends!</p>
+        </div>
+        <div class="featureBlock">
+            <div class="imgBlock" style=" background-image: url('/content/images/feature2.png'); background-size: 50% 50%;"></div>
+            <h2>Send Smiley</h2>
+            <p>Show your emotions by sending smileys!</p>
+        </div>
+        <div class="featureBlock">
+            <div class="imgBlock" style=" background-image: url('/content/images/feature4.png'); background-size: 40% 40%;"></div>
+            <h2>Privacy</h2>
+            <p>We care for your privacy!</p>
+        </div>
+        <div class="featureBlock">
+            <div class="imgBlock" style=" background-image: url('/content/images/feature5.png'); background-size: 40% 40%;"></div>
+            <h2>Block/unblock user</h2>
+            <p>Block/unblock any user!</p>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+</div>
+
+<div class="businessDescription">
+    <div class="content">
+        <p>
+            Chatfunky doesn't require you to perform any kind of typical registration process.
+            In fact it allows every member to directly login using his/her own choosed nick name.
+        </p>
+    </div>
+</div>
+
+<div class="totalUsers">
+    <p class="totalNo"><span>@ViewBag.TotalUsers</span> Users Online!</p>
+</div>
+
+<div class="loginArea">
+    <div class="box">
+        <div class="loginBox">
+            @using (Html.BeginForm("UserForm", "Main", FormMethod.Post, new { enctype = "multipart/form-data", id = "loginForm" }))
+            {
+                <p class="loginTxt">Log In</p>
+                <label for="photo" class="lblUpload">Photo</label>
+                <input type="file" id="photo" name="photo" style="display: none" accept="image/*" />
+                <input type="hidden" id="SocialProfilePicture" name="SocialProfilePicture">
+                <div class="infoArea">
+                    @Html.TextBoxFor(x => x.Username, new { placeholder = "Choose Nick", @class = "txtBoxUserName" })
+                    <p class="moreOptions">set more options</p>
+                    <div class="opt"></div>
+                    @if (ViewBag.Error != null)
+                    {
+                        <p class="loginError">@ViewBag.Error</p>
+                        <script>sessionStorage.clear();</script>
+                    }
+                    <input type="submit" value="JOIN" class="joinBtn" id="btnJoin" />
+                </div>
+                <div style="clear:both"></div>
+            }
+        </div>
+        <div class="signinBox">
+            <div class="loginOptions"><p>or sign in with</p></div>
+            <input type="button" value="Facebook" class="socialBtn fbLogin" />
+            <input type="button" value="Google" class="socialBtn googleLogin" />
+            <input type="button" value="Linked In" class="socialBtn linkedinLogin" />
+        </div>
+        <div style="clear:both"></div>
+    </div>
+</div>

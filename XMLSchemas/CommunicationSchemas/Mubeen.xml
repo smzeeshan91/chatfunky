@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mubeen>
+  <start>
+    <msg>aoa</msg>
+    <msg>Hi all</msg>
+    <msg>AOA room</msg>
+    <msg>Hello room</msg>
+    <msg>hello</msg>
+    <msg>hi</msg>
+    <msg>Hello Room</msg>
+  </start>
+  <begin>
+    <msg>Howz going ?</msg>
+    <msg>Room waloo kya hal hain?</msg>
+    <msg>aap sunaye</msg>
+    <msg>ni ati hahahah</msg>
+    <msg>I am new here</msg>
+    <msg>g bulkul theek</msg>
+    <msg>I am mubeen, from karachi</msg>
+    <msg>is there anyone from karachi?</msg>
+    <msg>allah ka shukar, aap kasee hain?</msg>
+    <msg>How are you guys</msg>
+    <msg>any girl here ?</msg>
+    <msg>sab kase han?</msg>
+  </begin>
+  <communication>
+    <msg>kya kerte ho ap?</msg>
+    <msg>me karachi, johar se hun</msg>
+    <msg>yup! doing job with study as well</msg>
+    <msg>me software engineer hun</msg>
+    <msg>yhh! no time in our field!</msg>
+    <msg>bhaut work load hota he bhai</msg>
+    <msg>acha aap bhe khi se hian?</msg>
+    <msg>ni married ni hun</msg>
+    <msg>25 ka hun abhi tou just hahahahah</msg>
+    <msg>abhee agee apna business ka program he</msg>
+    <msg>abhi tou job or study ke 7 time bhat mushkil se milta he</msg>
+    <msg>past me the, abhe ni he</msg>
+    <msg>me girl friends ni banataa hun</msg>
+    <msg>I am not that kind of guy, yeh!</msg>
+    <msg>ni mujhe is terhaa ke kaam pasand ni hai</msg>
+    <msg>aap kya kerte hai?</msg>
+    <msg>yeh tou abhi mere 1st job he</msg>
+    <msg>me ne bachelors computer science me kia he</msg>
+    <msg>yes abhi masters ker ra hun</msg>
+    <msg>Bachelors iqra university se kia tha, main campus</msg>
+    <msg>ni kabhi is  bareee me socha ni haahahah</msg>
+    <msg>aap kaha se hain??</msg>
+    <msg>hahahahahahahahaha hahahHAHAH</msg>
+    <msg>waha mosam kesa he aaj kal?</msg>
+    <msg>ni kbhi jana ni howa, but maree gayaa tha 1 bar jab bhaut chootha tha</msg>
+    <msg>friedns k 7  1-2 bar picnic per tou ayaa thaa isl and mareee side</msg>
+    <msg>ni g aise koi baat ni he</msg>
+    <msg>acha aaap kia kertee hian?</msg>
+    <msg>business keroo ga Inshallah future me</msg>
+    <msg>yehee apni field se he related keroo ga, software me</msg>
+    <mgs>ni abhi kuch ni sochaa he shadi ka hahsahhaha</mgs>
+    <msg>wha tou suna ke  bhaut sardi perti he, kyya aisa e he?</msg>
+  </communication>
+  <end>
+    <msg>ok me chalta hun</msg>
+    <msg>thek he me ja raha hun</msg>
+    <msg>ok allah hafiz, inshallah baad me baat keree ge</msg>
+    <msg>ok bye</msg>
+    <msg>ok Good bye</msg>
+    <msg>Allah Hafiz Room</msg>
+    <msg>oK room byee all</msg>
+  </end>
+</mubeen>

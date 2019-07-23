@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<jazib>
+  <start>
+    <msg>aoa</msg>
+    <msg>Salam</msg>
+    <msg>assalam o alaikum</msg>
+    <msg>Hello</msg>
+    <msg>hello all</msg>
+    <msg>hi</msg>
+    <msg>Hi All</msg>
+  </start>
+  <begin>
+    <msg>me thke ALLAH ka kram</msg>
+    <msg>i m fine Alhumdullilah</msg>
+    <msg>ALLAH ap sab ko hmasha thk rkhye</msg>
+    <msg>kia haal he???</msg>
+    <msg>saree kithee ne</msg>
+    <msg>any female from gujranwala pm me</msg>
+    <msg>sab chup!</msg>
+    <msg>lambiii khamooshiii</msg>
+    <msg>me study kerta hun</msg>
+    <msg>gandi bateen pasand ni mujhee heehhehe</msg>
+    <msg>kya hee</msg>
+  </begin>
+  <communication>
+    <msg>bhai tu idhar ka mahool kaharab kar raha hai</msg>
+    <msg>drame na kar jo baat sahi hia us ko maan bongian na maar</msg>
+    <msg>meharbani hogi apke or sath mai es dramay ko be ly ja</msg>
+    <msg>beelan se thukai krna iski</msg>
+    <msg>choor na is topic ko</msg>
+    <msg>ok my Bad sorry mate teri life teri marzi jo marzi kar</msg>
+    <msg>o bhaii nahi chahta kai tu ban hoo is liye tou kaha aisae kare ga tou ban hi ho ga</msg>
+    <msg>Abi to sar ghoom ra</msg>
+    <msg>Hahahah</msg>
+    <msg>mai bhi ao kia khanay</msg>
+    <msg>mash potato</msg>
+    <msg>bill mai PY karo ga no problem</msg>
+    <msg>nai girls allowed hain only boys k liy no entry</msg>
+    <msg>bhudii ko shoper dooo ulti aa rhi</msg>
+    <msg>I mean k mulasman hun</msg>
+    <msg>Sar dard hai thorra !!</msg>
+    <msg>Pleaseee</msg>
+    <msg>Oh to tum kro gay BT to koi krye ga BT</msg>
+    <msg>So many hearts</msg>
+    <msg>acha bahi tujhe jo krna he ker</msg>
+    <msg>insha Allah kbi nahi</msg>
+    <msg>Nay cuz you ruined my night unintentionally</msg>
+    <msg>g boloo</msg>
+    <msg>POOCHO</msg>
+    <msg>humesha pagal he rehna tum</msg>
+    <msg>This word sounds familiar to me</msg>
+    <msg>Ye agaz-e-muhabbat h abi gya kuchh b nhi tera</msg>
+    <msg>Nice qwali.. Mediating vocals</msg>
+    <msg>No,I'm not</msg>
+    <msg>me pagal ho jyo ga thori der or rha is rom em</msg>
+    <mgs>sochta hun chala jyooo is pagal room se</mgs>
+    <msg>I hate you idiot</msg>
+    <msg>acha bhaut gussa ataa he tujhee ??</msg>
+    <msg>kis time ataa he tuje gussa?</msg>
+    <msg>plz, dont use abusive language</msg>
+  </communication>
+  <end>
+    <msg>Allah hafiz</msg>
+    <msg>Bye room</msg>
+    <msg>ok byee</msg>
+    <msg>allah hafiz</msg>
+    <msg>ok bye bye room</msg>
+    <msg>phir milen ge, Allah aap sab ko apne aman me rakhe</msg>
+    <msg>good bye</msg>
+  </end>
+</jazib>

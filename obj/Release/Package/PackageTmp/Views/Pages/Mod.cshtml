@@ -1,0 +1,88 @@
+﻿@using ChatApp.Web.Models
+@model Mod
+
+@{
+    Layout = "~/Views/Master/Main.cshtml";
+}
+
+@section cssStyle{
+
+    <style type="text/css">
+        /*************************** Section ****************************/
+
+        section {
+            padding: 10% 0px 10% 0px;
+        }
+
+        .loginBox {
+            width: 200px;
+            border: 1px solid lightgray;
+            padding: 30px;
+            float: none;
+            margin: auto;
+        }
+
+        .loginTxt {
+            text-align: center;
+            border: none;
+        }
+
+        .txtBoxUserName {
+            margin-bottom: 10px;
+        }
+
+        .joinBtn {
+            margin: auto;
+        }
+
+        /************************* Total Users **************************/
+
+        .totalUsers {
+            margin: 0px auto 10px auto;
+        }
+    </style>
+
+}
+
+@section jScript{
+
+    <script type="text/javascript">
+
+        (function ($) {
+
+            $(function () {
+
+                $(".joinBtn").click(function (e) {
+                    var username = $(".txtBoxUserName").val().trim();
+                    if (username.length > 14 || username.length == 0) {
+                        e.preventDefault();
+                        alert("please enter username max upto 14 characters!");
+                    }
+                });
+
+            });
+
+        })(jQuery);
+
+    </script>
+
+}
+
+<div class="loginArea">
+
+    <div class="loginBox">
+        @using (Html.BeginForm("ModForm", "Mod", FormMethod.Post))
+        {
+            <p class="loginTxt">Mod Login</p>
+            @Html.TextBoxFor(x => x.Username, new { placeholder = "Moderator Name", @class = "txtBoxUserName" })
+            @Html.PasswordFor(x => x.Password, new { placeholder = "Password", @class = "txtBoxUserName" })
+            if (ViewBag.Error != null)
+            {
+                <p class="loginError">@ViewBag.Error</p>
+                <script>sessionStorage.clear();</script>
+            }
+            <input type="submit" value="Login" class="joinBtn" />
+        }
+    </div>
+
+</div>

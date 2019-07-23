@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mystic>
+  <start>
+    <msg>AssalamoAlaikum</msg>
+    <msg>Hi</msg>
+    <msg>Hello</msg>
+    <msg>Helo all</msg>
+    <msg>hi</msg>
+  </start>
+  <begin>
+    <msg>kase ho ?</msg>
+    <msg>i AM fine</msg>
+    <msg>yahan kia ho.raha haiiii bhai loggg</msg>
+    <msg>mai fit mazay mai hunn na U btaoooooo</msg>
+    <msg>how are you?</msg>
+    <msg>me good n u?</msg>
+    <msg>i am mubashir, frm khi</msg>
+    <msg>where r u frm?</msg>
+    <msg>hi neha, kasee ho?</msg>
+    <msg>i am frm khi</msg>
+  </begin>
+  <communication>
+    <msg>Yaha owlee par rahee bht tez barish</msg>
+    <msg>Hahaha ach ..</msg>
+    <msg>sab jaga barish ho gaye he kya??</msg>
+    <msg>peshawar may b barish</msg>
+    <msg>tum to kick mar deti ho  dil main bat rakh k :buhah</msg>
+    <msg>Koii Mar gaya hai kia ??</msg>
+    <msg>neha mujh se dosti keroo ge?</msg>
+    <msg>Barish ruk gaye yaha</msg>
+    <msg>tou kya neha baji kehnaa shurou kerdooo ab, ahhahaahha</msg>
+    <msg>lagta hai app ka dhoodo wala feeder misplace ho geya hai neha g</msg>
+    <msg>maza aya barish ka... nice mosam ab</msg>
+    <msg>may kyu jaloga ???? akhir kyu???? konsay real pics hay</msg>
+    <msg>neha room kesaa laga he</msg>
+    <msg>neha bhai na banayooo ab mujhee</msg>
+    <msg>Dp laga lo neha</msg>
+    <msg>Yaha b bht tez rain ha</msg>
+    <msg>kia hua g ?</msg>
+    <msg>Khaamoshiyan !!</msg>
+    <msg>milay ho hum tum ko baraay naseeebo say</msg>
+    <msg>Kidding dil p na lo jugat the</msg>
+    <msg>Tera name lene ki chahat howee ha Neha!</msg>
+    <msg>Teri Merii ..</msg>
+    <msg>Sab pm main</msg>
+    <msg>ThankU ThankUu</msg>
+    <msg>ap ko kasa laga my new nick</msg>
+    <msg>achaa.....</msg>
+    <msg>kasee ho ?</msg>
+    <msg>achaa kyun?</msg>
+    <msg>i am fine dear</msg>
+    <msg>u OLd Hooo yah New</msg>
+    <msg>sorry,  i was in the washroom</msg>
+    <msg>any single gorgues girl around</msg>
+    <msg>great</msg>
+    <msg>koi load ker waa dooo</msg>
+    <msg>Mere Pm ki Zeenat kon ban'na chahta hai ??</msg>
+    <msg>not in pm</msg>
+    <msg>mne ye sOng kbhi Nhi Suna</msg>
+    <msg>me b 1st time sona acha laga</msg>
+    <msg>kaha hoooooooooooooo</msg>
+    <msg>Sb Chup!!</msg>
+    <msg>me bhaut handsome hun yaar</msg>
+    <msg>Thanks</msg>
+    <msg>Thanks Brow</msg>
+    <msg>what's going on with you</msg>
+    <mgs>its funny</mgs>
+    <msg>my frnd name cheku goraya</msg>
+  </communication>
+  <end>
+    <msg>mainn kichn main going byee </msg>
+    <msg>me going going</msg>
+    <msg>ok</msg>
+    <msg>k bye</msg>
+    <msg>byee room</msg>
+  </end>
+</mystic>

@@ -1,0 +1,33 @@
+﻿
+h1 {
+    margin-bottom: 50px;
+    padding: 0px;
+    border: 1px solid transparent;
+    border-bottom-color: black;
+}
+
+section {
+    padding: 5% 0px 5% 0px;
+    box-shadow: 0px 0px 200px lightgray inset;
+}
+
+    section p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+.totalUsers {
+    margin: auto;
+}
+
+.privacySec {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+/*************************** Footer ****************************/
+
+.footerImg {
+    background-color: #e8e8e8;
+}

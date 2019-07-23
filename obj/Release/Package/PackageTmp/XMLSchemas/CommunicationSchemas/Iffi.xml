@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<iffi>
+  <start>
+    <msg>Assalam o Alaikum all room</msg>
+    <msg>Hello all</msg>
+    <msg>assalam o alaikum</msg>
+    <msg>salam</msg>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+  </start>
+  <begin>
+    <msg>I am Ifii, i am from bangladesh</msg>
+    <msg>any 1 here frm bangladesh?</msg>
+    <msg>are there only paki peoples?</msg>
+    <msg>hi all, any 1 there?</msg>
+    <msg>For sure</msg>
+    <msg>any female from bangladesh, pm me</msg>
+    <msg>Hello all</msg>
+  </begin>
+  <communication>
+    <msg>I am just youtubin today, whatup at your end how was the day</msg>
+    <msg>any finally found chatfunky</msg>
+    <msg>and now me here now</msg>
+    <msg>a true DDLJ</msg>
+    <msg>any 1 from pakistan?</msg>
+    <msg>Wonna be my friend?</msg>
+    <msg>come pvt</msg>
+    <msg>im phucked dude just bcz of you</msg>
+    <msg>r u all urdu ??</msg>
+    <msg>any 1 from india??</msg>
+    <msg>I know hindi litle as well</msg>
+    <msg>No</msg>
+    <msg>Bangladesh is beautiful country</msg>
+    <msg>yes</msg>
+    <msg>hello r u there?</msg>
+    <msg>yes i am here</msg>
+    <msg>what s ur occupation?</msg>
+    <msg>guys I m male not female!!! dont send me censorede chat hahahahhahaha</msg>
+    <msg>i am scholar and what do you do ??</msg>
+    <msg>i told you what i am doing</msg>
+    <msg>nice to listen hahahah</msg>
+    <msg>yes i am technical person</msg>
+    <msg>yes lots of fishes in bangladesh</msg>
+    <msg>banglalion hahahaha</msg>
+    <msg>what about ur age</msg>
+    <msg>where u from?</msg>
+    <msg>Haha it's okay</msg>
+    <msg>u gotta really nice nick</msg>
+    <msg>wish i could use that nick</msg>
+    <msg>are u ok??</msg>
+    <mgs>Thanks! and GOodluck for ur work</mgs>
+    <msg>Thats nice, thank you</msg>
+  </communication>
+  <end>
+    <msg>bye all, will meet later</msg>
+    <msg>bye all, thats really nice room</msg>
+    <msg>thnnkuu, byee all</msg>
+    <msg>ok bye</msg>
+    <msg>Good bye</msg>
+    <msg>bye ALL</msg>
+    <msg>Byee All</msg>
+  </end>
+</iffi>

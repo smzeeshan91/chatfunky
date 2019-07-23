@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<blood_seeker>
+  <start>
+    <msg>aoa</msg>
+    <msg>assalam aliakum</msg>
+    <msg>assalam o alaikum</msg>
+    <msg>salam</msg>
+    <msg>aoa room</msg>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+    <msg>Hello room</msg>
+  </start>
+  <begin>
+    <msg>theek tum sunayoo</msg>
+    <msg>ganda hun</msg>
+    <msg>me b theek thaaak mazy ma</msg>
+    <msg>Kaisi c ho ?</msg>
+    <msg>acha g</msg>
+    <msg>are u girl diyaa??</msg>
+    <msg>haaaa g khan sb kesy hain ?</msg>
+    <msg>mubarak g</msg>
+    <msg>I am good, how have you been?</msg>
+    <msg>mabroooooook G</msg>
+  </begin>
+  <communication>
+    <msg>esa hu hi na jay</msg>
+    <msg>I will laugh at that nugget guy when he won't reach his 18Million RTs</msg>
+    <msg>whatttttt</msg>
+    <msg>No one knows about your self-created jargons </msg>
+    <msg>Humsafra humi ko chun lo na</msg>
+    <msg>Diyaaaa Ay jurab sungaoo</msg>
+    <msg>She is also asking me to say I love you on her behalf to you</msg>
+    <msg>Tm sy na guess ho paye ga</msg>
+    <msg>Had say guzar jao lol</msg>
+    <msg>ahahaha</msg>
+    <msg>nick dekh k e pyar ho gya</msg>
+    <msg>did I say anything to ur mum?</msg>
+    <msg>why dont u just eff off n ask this from ur mother?</msg>
+    <msg>Why u asking me this question?</msg>
+    <msg>How and why?</msg>
+    <msg>yahan b atay meray han...</msg>
+    <msg>ty moez nu ?</msg>
+    <msg>yaqeen ni aa rhaa</msg>
+    <msg>its truth man....tum sy assi ummed ni thi muj ko waisy</msg>
+    <msg>Pm kar raha</msg>
+    <msg>mazaq tha jani chill kro</msg>
+    <msg>khud Bunyaad dali apni angrezi ki</msg>
+    <msg>abay chl aab shugal kah rha hai...farigh kr</msg>
+    <msg>samja nahe</msg>
+    <msg>to phir ye batein</msg>
+    <msg>Bibi gullay baend</msg>
+    <msg>Mera b mazak ha kisi k sath kiya?</msg>
+    <msg>Blod kaisi? ahhahahahahahah</msg>
+    <msg>ye achi but apni Car nhi deti mujy hahaha</msg>
+    <msg>ab ni daikhta kr lo bhabi sy baat</msg>
+    <msg>chalo milwao fir</msg>
+    <msg>bohat ajeeb bat krty ho bhayo pichly janam mein sheeren mazari tho kia??</msg>
+    <msg>pleasure pleasure</msg>
+    <msg>good</msg>
+    <msg>awara pann...bunjara pann......aik khala hai seenay mein</msg>
+    <msg>me diting ki baat kar raha diyaa sy dating ki ni </msg>
+    <msg>If you wanna see a show tonight</msg>
+    <msg>nahi</msg>
+    <msg>me kisee ko abuse ni ekrta</msg>
+    <msg>jis mein basti ho mere dil ki galiyan koi</msg>
+    <msg>u dont want to talk with me tell me be seriously?</msg>
+    <msg>apko samajh aya woh ?</msg>
+    <msg>thorha sa dil mera bura hai...thorha bhala hai seenay mein</msg>
+    <msg>kon si khala?</msg>
+    <msg>wo hain ik ujri howi riyasat k luty howy sultan</msg>
+    <msg>ik baaat to batao</msg>
+    <msg></msg>
+  </communication>
+  <end>
+    <msg>ok Allah hafiz</msg>
+    <msg>ok bye</msg>
+    <msg>ok bye all</msg>
+  </end>
+</blood_seeker>

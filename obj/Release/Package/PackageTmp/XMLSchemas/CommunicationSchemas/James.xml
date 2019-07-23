@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<james>
+  <start>
+    <msg>Hi there</msg>
+    <msg>hello all</msg>
+    <msg>hi all</msg>
+    <msg>Hello!</msg>
+    <msg>any 1 there</msg>
+    <msg>hi all</msg>
+    <msg>Hello All</msg>
+  </start>
+  <begin>
+    <msg>hi, how are you?</msg>
+    <msg>hello, howz u?</msg>
+    <msg>Hello</msg>
+    <msg>Hi</msg>
+    <msg>can we chat?</msg>
+    <msg>wud u chat with me ?</msg>
+    <msg>How are you?</msg>
+    <msg>Hello! how are you?</msg>
+  </begin>
+  <communication>
+    <msg>how u doing?</msg>
+    <msg>all fine</msg>
+    <msg>share me ur voice message here</msg>
+    <msg>i wonna see u</msg>
+    <msg>nice to talk wid u</msg>
+    <msg>i'll be happy to know that</msg>
+    <msg>can u share ur pic wid me</msg>
+    <msg>m good looking</msg>
+    <msg>u r good</msg>
+    <msg>i really like u</msg>
+    <msg>to the very far by now we are experiencing that</msg>
+    <msg>it was yesterday's evening i just got that</msg>
+    <msg>dont mess up wid me u idiot</msg>
+    <msg>i just left my x gf because she loved someone else</msg>
+    <msg>girls are idiots</msg>
+    <msg>please w8</msg>
+    <msg>brb</msg>
+  </communication>
+  <end>
+    <msg>k m going now</msg>
+    <msg>byee</msg>
+    <msg>b bye</msg>
+    <msg>we'll meet later</msg>
+    <msg>ok m going now</msg>
+    <msg>ok byee</msg>
+  </end>
+</james>

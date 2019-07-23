@@ -1,0 +1,144 @@
+﻿@model ChatUser
+
+@{
+    Layout = "~/Views/Master/Main.cshtml";
+}
+
+@section cssStyle{
+
+    @Styles.Render("~/chatPluginCss")
+    @Styles.Render("~/chatCss")
+
+    <style type="text/css">
+        .slider {
+            overflow: hidden;
+            float: left;
+        }
+
+        .slider-wrapper {
+            width: 1115%;
+        }
+    </style>
+
+}
+
+@section jScript{
+
+    @Scripts.Render("~/chatPluginJquery")
+    @Scripts.Render("~/chatAudio")
+    @*<script src="../content/js/audio/recordmp3.js"></script>
+        <script src="../content/js/audio/chatAudioMsg.js"></script>*@
+    @Scripts.Render("~/chatJquery")
+    <script type="text/javascript">
+
+        (function ($) {
+
+            $(function () {
+
+                CHATVARIABLES.user.Id = parseInt('@Model.Id');
+                CHATVARIABLES.user.IsMod = parseInt('@Model.IsMod');
+                //CHATVARIABLES.user.ConnectionId = "";
+                CHATVARIABLES.user.Username = '@Model.Username';
+                CHATVARIABLES.user.Gender = '@Model.Gender';
+                CHATVARIABLES.user.Age = '@Model.Age';
+                CHATVARIABLES.user.Blocks = "";
+                CHATVARIABLES.user.Photo = '@Model.Photo';
+
+                if (sessionStorage.allUsernames == undefined && '@ViewBag.DuplicateTab' != "True") {
+                    Load.pageLoad();
+                    SocketConnection.connect();
+                    Load.signalrLoad();
+                }
+                else {
+                    CHATVARIABLES.secondTab = true;
+                    Load.signalrLoadSameSession();
+                }
+
+                SignalrClient.userJoin();
+                SignalrClient.chat();
+                SignalrClient.events();
+                SignalrClient.userDisconnect();
+
+                Load.signalrReload();
+
+            });
+
+        })(jQuery);
+
+    </script>
+
+}
+
+<div class="totalUsers">
+    <p class="totalNo"><span>@ViewBag.TotalUsers</span> Users Online!</p>
+    <a href="javascript:void(0)" id="logout"><img src="../content/images/logout.png" class="logout" /></a>
+    <p style="clear:both"></p>
+</div>
+
+<div class="chatBox">
+
+    <div class="leftBox">
+
+        <div class="chats">
+            <div class="chatType">
+                <p class="startedChat startedChatSelected"><img src="../content/images/publicchat.png" alt="Room" style="border-radius:0px" /><em>Public</em></p>
+            </div>
+            <div class="chatNav">
+                <p id="slider-prev"></p>
+                <p id="slider-next"></p>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <div class="messageArea">
+            <div class="chatMsg"></div>
+        </div>
+
+        <div class="chatPanel">
+            <input type="button" value="" class="emoticonsBtn" />
+            <input type="text" placeholder="Write Message Here" class="txtBoxMsg" />
+            <p class="msgSending"></p>
+            <input type="button" value="Send" class="btnSend" />
+            <input type="button" class="btnSendFile" />
+            <div class="fileOptions">
+                <div class="audioOption" id="audioOption">
+                    <input type="button" class="audioMsg" value="Send Audio" />
+                    <img src="../content/images/audio.png" />
+                    <!--helper for plupload uploader-->
+                    <em id="audio"></em>
+                </div>
+                <div class="imageOption" id="imageOption">
+                    <input type="button" class="sendImage" value="Send Image" />
+                    <img src="../content/images/image.png" />
+                </div>
+            </div>
+            <p style="clear:both"></p>
+            <!-- emoticonPanel Area -->
+        </div>
+
+    </div>
+
+    <div class="rightBox" oncontextmenu="return false;">
+        <span id="mobileClose"></span>
+        <p class="roomName"><span class="online"></span>Online Users</p>
+        <p class="search"><input type="text" placeholder="Search User" class="searchBox" /></p>
+        <div class="roomTab"></div>
+        <!-- userOptions Area -->
+    </div>
+
+    <input type="button" class="showRightBox" value="Show Users" />
+    <div style="clear:both"></div>
+
+</div>
+
+<div class="uploadifyQueue">
+    <div class="uploadify-queue-item">
+        <span class="cancel"></span>
+        <span class="fileName"></span>
+        <span class="data"></span>
+        <div class="uploadify-progress">
+            <div class="uploadify-progress-bar"></div>
+        </div>
+    </div>
+</div>
+

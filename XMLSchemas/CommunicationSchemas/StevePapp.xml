@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<stevepapp>
+  <start>
+    <msg>Hi</msg>
+    <msg>hello</msg>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+    <msg>hi all</msg>
+    <msg>Hello All</msg>
+  </start>
+  <begin>
+    <msg>hi, how are you?</msg>
+    <msg>hello, howz u?</msg>
+    <msg>Hello</msg>
+    <msg>Hi</msg>
+    <msg>How are you?</msg>
+    <msg>Hello! how are you?</msg>
+  </begin>
+  <communication>
+    <msg>how u doing?</msg>
+    <msg>all fine</msg>
+    <msg>asl plz ?</msg>
+    <msg>whr u frm?</msg>
+    <msg>nice to talk wid u</msg>
+    <msg>i'll be happy to know that</msg>
+    <msg>we are soon going to migrate towards canada</msg>
+    <msg>the weather of today is pretty nice yeh!</msg>
+    <msg>although it was quite huge but i got it</msg>
+    <msg>that was good, but not that good deal</msg>
+    <msg>i just lost my job</msg>
+    <msg>I don't want to enter into that garbage every again</msg>
+    <msg>u idiot</msg>
+    <msg>btw r u good at it?</msg>
+    <msg>where r u from?</msg>
+    <msg>please w8</msg>
+    <msg>brb</msg>
+  </communication>
+  <end>
+    <msg>k m going now</msg>
+    <msg>byee</msg>
+    <msg>b bye</msg>
+    <msg>we'll meet later</msg>
+    <msg>ok m going now</msg>
+    <msg>ok byee</msg>
+  </end>
+</stevepapp>

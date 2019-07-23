@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<eman>
+  <start>
+    <msg>aoa</msg>
+    <msg>hi all</msg>
+    <msg>hi room</msg>
+    <msg>sara mere jaan kse ho</msg>
+    <msg>hamza gayee ni abhe tak</msg>
+    <msg>hi</msg>
+    <msg>Hello all</msg>
+    <msg>hi All</msg>
+    <msg>salam</msg>
+  </start>
+  <begin>
+    <msg>or hamzaa sahab kase ho</msg>
+    <msg>hamza ni milee koi gf abhe tak lolx</msg>
+    <msg>lolx</msg>
+    <msg>sara PM me ayooo........</msg>
+    <msg>PM me sara, ...</msg>
+    <msg>me fazool logoo se baat ni krti</msg>
+    <msg>jyoo tum</msg>
+    <msg>umeed he sab theek ho ge</msg>
+    <msg>koi he yaha?</msg>
+    <msg>i dont need it!</msg>
+    <msg>me msgs ka reply ni kerti hun</msg>
+    <msg>dont tease plzzzZ</msg>
+    <msg>please dont tease</msg>
+  </begin>
+  <communication>
+    <msg>naaaaaaaaaaahi</msg>
+    <msg>sara kya chal raha he aaj kal?</msg>
+    <msg>tum tou chup he ker jyoo</msg>
+    <msg>lol</msg>
+    <msg>IM AM churail</msg>
+    <msg>yes i am studing</msg>
+    <msg>Hahahaahaha haannnn thorii shararat</msg>
+    <msg>me frm khi</msg>
+    <msg>doing BBA frm Iqra University</msg>
+    <msg>Hmmm</msg>
+    <msg>abhi abhi farig hoyee hun examz se lolx</msg>
+    <msg>then you should take rest instead of chatting here</msg>
+    <msg>khar leave it</msg>
+    <msg>ni mera pc hai tum ye lo</msg>
+    <msg>kya maslaa he?</msg>
+    <msg>i am enjoying his bistii</msg>
+    <msg>hamza tumhee sharaam ni ati he idiot</msg>
+    <msg>go away lolx phir agaya</msg>
+    <msg>lol sit silently and watch. there are plenty of them who deserve it</msg>
+    <msg>lst convo me gayee thee</msg>
+    <msg>abhi kal hoyee thee</msg>
+    <msg>islyee bhaut thk gayee hun aaj</msg>
+    <msg>koi mzaa ni aaj room me lolx</msg>
+    <msg>sara is kee batoon ka jawaab na doo</msg>
+    <msg>Chalo guess kro</msg>
+    <msg>Yaaaar ye kya kick and Ban Start hay Room may, achi baat he</msg>
+    <msg>DAFA KARO....YARA...YEA ROOM SAR DARD HAI</msg>
+    <msg>lol us ky bad apny marzi ky user rhaky gy na</msg>
+    <msg>hahahahahahaha Allah tjy is imtehaan se nikaaly Aameen</msg>
+    <msg>Ab bss kroo</msg>
+    <msg>ok</msg>
+    <msg>hehe ha he</msg>
+    <msg>bhaut booring ho gaya he ab tou</msg>
+    <mgs>HAN UNCAL spelling NI ATY</mgs>
+    <msg>U right</msg>
+    <msg>iqra best he, DHA suffa ka koi faida ni, yaha logo ko lecture dy gy na, hehehehe</msg>
+  </communication>
+  <end>
+    <msg>Allah hafiz stay blessed Allz</msg>
+    <msg>ok me going sara</msg>
+    <msg>ok byee</msg>
+    <msg>allah hafiz</msg>
+    <msg>ok ba by</msg>
+    <msg>Allah Hafiz all</msg>
+    <msg>Bye</msg>
+  </end>
+</eman>

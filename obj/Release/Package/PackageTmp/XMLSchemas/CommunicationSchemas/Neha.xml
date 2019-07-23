@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<neha>
+  <start>
+    <msg>hi room</msg>
+    <msg>hi i am neha, new here</msg>
+    <msg>hello room</msg>
+    <msg>Hi</msg>
+    <msg>Assalamalikum</msg>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+  </start>
+  <begin>
+    <msg>how are you?</msg>
+    <msg>today is my 1st day on this room</msg>
+    <msg>neha, 21 f, khi, u?</msg>
+    <msg>aaj 1st time ayee hun</msg>
+    <msg>21 f, frm khi? whre u frm?</msg>
+    <msg>me new hun is room me</msg>
+    <msg>hahhah</msg>
+  </begin>
+  <communication>
+    <msg>i am girl lolx</msg>
+    <msg>Had Hoti hai wese</msg>
+    <msg>hahhahaha acha ?</msg>
+    <msg>well it a bad decision</msg>
+    <msg>is room me radio ni kya?</msg>
+    <msg>Acha</msg>
+    <msg>good</msg>
+    <msg>ab tum line na maroo lol</msg>
+    <msg>lol tum mujh se 1 sal chothe ho, sharam keroo</msg>
+    <msg>nope lolx</msg>
+    <msg>why ??</msg>
+    <msg>wo rang mang kaha ha</msg>
+    <msg>Kiski bat horai h mystic</msg>
+    <msg>kiyaaa</msg>
+    <msg>me itni jaldii ni patoo gi tum se lolx, is ke try choor do koi or kaam kero</msg>
+    <msg>Good good bahiya g</msg>
+    <msg>hahahahah ahha</msg>
+    <msg>tum meree bhaiyoo jasee ho mystic, ahhahahahaha</msg>
+    <msg>acha, bhaut mubarak ho</msg>
+    <msg>i said aap be rang kaisy ho gy?</msg>
+    <msg>noooo</msg>
+    <msg>thanks</msg>
+    <msg>Sardi ho gaye hogi??</msg>
+    <msg>Brb roti kah lo</msg>
+    <msg>Stop laughing</msg>
+    <msg>ana he nahi mena ab is room me me ne lolx</msg>
+    <msg>yes i am chilling enjoying every moment of the room</msg>
+    <msg>hahahaha</msg>
+    <msg>me tum jesee larko ko achi terha janti hun</msg>
+    <msg>pata nh KON hai</msg>
+    <msg>jaab kisi ki bat buri lagy to thapar maar dena chahye, lihaza me tumhe thapar marti hun ab !!!!</msg>
+    <msg>me DP na he lagayoo tou bhethar he, tum jal jyoo ge</msg>
+    <msg>lolx</msg>
+    <msg>acha g</msg>
+    <msg>mujhe lagta he ab mujhe ap ko block ker dena chayhee mr mystic</msg>
+    <msg>ahahhaaah</msg>
+  </communication>
+  <end>
+    <msg>ok bye all, i am going, kal miltee hain</msg>
+    <msg>TC.. all, kal milee ge same time</msg>
+    <msg>Byee all</msg>
+    <msg>ok byee all</msg>
+  </end>
+</neha>

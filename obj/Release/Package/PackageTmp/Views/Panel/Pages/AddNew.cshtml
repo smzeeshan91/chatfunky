@@ -1,0 +1,95 @@
+﻿@{
+    Layout = "~/Views/Panel/Master/Main.cshtml";
+}
+
+@section jScript{
+
+    <script>
+
+        (function ($) {
+
+            $(function () {
+
+                $(".modBtn").click(function () {
+
+                    var username = $(".txtBoxUserName").val().trim();
+                    var password = $(".Password").val().trim();
+
+                    if (username.length > 14 || username.length == 0) {
+                        e.preventDefault();
+                        alert("please enter username max upto 14 characters!");
+                        return;
+                    }
+                    if (password.length > 12 || password.length == 0) {
+                        e.preventDefault();
+                        alert("please enter password max upto 12 characters!");
+                        return;
+                    }
+
+                    $.ajax({
+                        url: "/panel/addnew",
+                        data: { Username: username, Password: password },
+                        type: "POST",
+                        success: function (result) {
+                            if (result == "True") {
+                                $(".modBox").append("<p class='added'>Moderator has been successfully added</p>");
+                            }
+                        }
+                    });
+
+                });
+
+            });
+
+        })(jQuery);
+
+    </script>
+
+}
+
+<div class="header">
+    <div class="welcome">Welcome Admin [Syed M Zeeshan]</div>
+    <div class="logout">[<a href="/panel/logout"> Logout </a>]</div>
+    <div style="clear:both"></div>
+</div>
+
+<div class="adminSec">
+
+    <div class="adminHeader">
+        Admin Section
+    </div>
+
+    <div class="adminArea">
+
+        <div class="adminOptions">
+            <div class="admOpHeader">&nbsp</div>
+            <div class="admOps">
+                <div class="option"><a href="/panel/modlist">Moderators List</a></div>
+                <div class="option optionSelected"><a href="/panel/addnew">Add New</a></div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <div class="adminDetails">
+
+            <div class="modBox">
+                <p class="modTxt">Add New Moderator</p>
+                @using (Html.BeginForm("UserForm", "Main", FormMethod.Post))
+                {
+                    <input type="text" placeholder="Name" class="txtBoxUserName" maxlength="10" />
+                    <input type="password" placeholder="Password" class="txtBoxUserName Password" maxlength="10" />
+                    if (ViewBag.Error != null)
+                    {
+                        <p class="modError">Something is Invalid</p>
+                    }
+                    <input type="button" value="Add" class="modBtn joinBtn" />
+                }
+            </div>
+
+        </div>
+
+        <div style="clear:both"></div>
+
+    </div>
+
+</div>

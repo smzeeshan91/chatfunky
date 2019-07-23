@@ -1,0 +1,141 @@
+﻿@model List<string>
+
+@{
+    Layout = "~/Views/Panel/Master/Main.cshtml";
+}
+
+@section jScript{
+
+    <script>
+
+        (function ($) {
+
+            $(function () {
+
+                var selectedMod;
+
+                $(".chooseDialog").hide();
+
+                // Dialog Box On Side
+
+                $(".modDel").click(function (e) {
+
+                    var x = $(this).position();
+                    $(".chooseDialog").css({
+                        "top": x.top + 15,
+                        "left": x.left - 202,
+                    });
+                    $(".chooseDialog").children(".chooseArea").children("#msg").html("Are you sure that you want to delete this moderator?");
+                    $(".chooseDialog").children(".chooseHeader").children(".headerText").text("Confirm Delete");
+                    $("html").animate({ scrollTop: window.pageYOffset }, "fast");
+                    $(".chooseDialog").show();
+
+                    selectedMod = $(this).siblings(".name").text();
+
+                });
+
+                // Dialog Box Buttons
+
+                $(".btnOk").click(function () {
+
+                    $.ajax({
+                        url: "/panel/deletemod",
+                        data: { modName: selectedMod },
+                        type: "POST",
+                        success: function (result) {
+                            if (result == "True") {
+                                $(".chooseDialog").hide();
+                                $(".userItem").each(function () {
+                                    if ($(this).children(".name").text() == selectedMod)
+                                        $(this).remove();
+                                });
+                                alert("Mod Deleted");
+                            }
+                        }
+                    });
+
+                });
+
+                $(".btnCancel").click(function (e) {
+                    $(".chooseDialog").hide();
+                });
+
+            });
+
+        })(jQuery);
+
+    </script>
+
+}
+
+<div class="header">
+    <div class="welcome">Welcome Admin [Syed M Zeeshan]</div>
+    <div class="logout">[<a href="/panel/logout"> Logout </a>]</div>
+    <div style="clear:both"></div>
+</div>
+
+<div class="chooseDialog">
+
+    <div class="chooseHeader">
+        <div class="headerText"></div>
+        <div class="headerBtn">
+            <input type="button" value="X" class="btnClose" />
+        </div>
+        <div style="clear:both"></div>
+    </div>
+
+    <div class="chooseArea">
+        <span id="msg"></span>
+        <hr class="hrow" />
+        <input type="button" value="OK" class="btnOk" />
+        <input type="button" value="Cancel" class="btnCancel" />
+    </div>
+
+</div>
+
+<div class="adminSec">
+
+    <div class="adminHeader">
+        Admin Section
+    </div>
+
+    <div class="adminArea">
+
+        <div class="adminOptions">
+            <div class="admOpHeader">&nbsp</div>
+            <div class="admOps">
+                <div class="option optionSelected"><a href="/panel/modlist">Moderators List</a></div>
+                <div class="option"><a href="/panel/addnew">Add New</a></div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <div class="adminDetails">
+
+            <div class="userHeaderRow">
+                <div class="userSNo">S No.</div>
+                <div class="name">Moderator</div>
+                <div class="modDel">Action</div>
+                <div style="clear:both"></div>
+            </div>
+
+            @if (Model != null)
+            {
+                for (int i = 0; i < Model.Count(); i++)
+                {
+                    <div class="userItem">
+                        <div class="userSNo">@(i + 1)</div>
+                        <div class="name">@Model[i]</div>
+                        <div class="modDel"><a href="javascript:void(0)">Delete</a></div>
+                        <div style="clear:both"></div>
+                    </div>
+                }
+            }
+
+        </div>
+
+        <div style="clear:both"></div>
+
+    </div>
+
+</div>

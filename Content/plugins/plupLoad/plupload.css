@@ -1,0 +1,76 @@
+﻿
+/*************************** Uploadify Queue Box ****************************/
+
+.uploadifyQueue {
+    margin: auto;
+    margin-top: 10px;
+    font-size:14px;
+}
+
+@media only screen and (max-width:979px) {
+    .uploadifyQueue {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width:799px) {
+    .uploadifyQueue {
+        width: 640px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .uploadifyQueue {
+        width: 330px;
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .uploadifyQueue {
+        width: 300px;
+    }
+}
+
+/*************************** Uploadify Styles ****************************/
+
+.uploadify-queue-item {
+    width: Calc(100% - 20px);
+    background-color: #ececec;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    /*font: 11px Verdana, Geneva, sans-serif;*/
+    padding: 10px;
+}
+
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+
+.uploadify-queue-item .cancel {
+    background: url('../content/plugins/plupload/plupload-cancel.png') 0 0 no-repeat;
+    float: right;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+
+.uploadify-queue {
+}
+
+.uploadify-progress {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.uploadify-progress-bar {
+    background-color: #0099FF;
+    height: 3px;
+    width: 45px;
+}

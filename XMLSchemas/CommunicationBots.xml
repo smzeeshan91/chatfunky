@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bots>
+  <parent name="JDee">
+    <child name="SarfarazJutt" />
+    <child name="Khoobsoorat" />
+    <child name="GaNdA_BaChA" />
+  </parent>
+  <parent name="Khoobsoorat">
+    <child name="JDee" />
+    <child name="GaNdA_BaChA" />
+  </parent>
+  <parent name="SarfarazJutt">
+    <child name="JDee" />
+    <child name="GaNdA_BaChA" />
+  </parent>
+  <parent name="GaNdA_BaChA">
+    <child name="JDee" />
+    <child name="Khoobsoorat" />
+    <child name="SarfarazJutt" />
+  </parent>
+  <parent name="BholaBacha">
+    <child name="Shahzad_akram" />
+    <child name="Sehrish" />
+  </parent>
+  <parent name="GreeN-Eyes">
+    <child name="Bilal25" />
+    <child name="Sehrish" />
+    <child name="Mystic" />
+  </parent>
+  <parent name="SpiderBoy">
+    <child name="Manal" />
+    <child name="Aliza" />
+    <child name="FireCracker" />
+    <child name="Mystic" />
+  </parent>
+  <parent name="Mystic">
+    <child name="SpiderBoy" />
+    <child name="Namaloom" />
+    <child name="Manal" />
+    <child name="Aliza" />
+    <child name="Neha" />
+  </parent>
+  <parent name="Namaloom">
+    <child name="Manal" />
+    <child name="Aliza" />
+    <child name="Mystic" />
+    <child name="Neha" />
+  </parent>
+  <parent name="Manal">
+    <child name="FireCracker" />
+    <child name="Namaloom" />
+    <child name="SpiderBoy" />
+    <child name="Mystic" />
+    <child name="Neha" />
+  </parent>
+  <parent name="Aliza">
+    <child name="Namaloom" />
+    <child name="SpiderBoy" />
+    <child name="Mystic" />
+    <child name="Neha" />
+  </parent>
+  <parent name="FireCracker">
+    <child name="Shahzad_akram" />
+    <child name="Manal" />
+    <child name="SpiderBoy" />
+    <child name="Neha" />
+  </parent>
+  <parent name="Neha">
+    <child name="Mystic" />
+    <child name="Namaloom" />
+    <child name="Manal" />
+    <child name="Aliza" />
+    <child name="FireCracker" />
+    <child name="Hamza26" />
+  </parent>
+  <parent name="Eman">
+    <child name="Sara" />
+    <child name="Ayaan" />
+    <child name="Sehrish" />
+  </parent>
+  <parent name="JohnSnow">
+    <child name="Ayaan" />
+    <child name="Sara" />
+    <child name="Hamza26" />
+    <child name="Sehrish" />
+  </parent>
+  <parent name="Sara">
+    <child name="Hamza26" />
+    <child name="Eman" />
+    <child name="JohnSnow" />
+    <child name="Sehrish" />
+  </parent>
+  <parent name="Ayaan">
+    <child name="Eman" />
+    <child name="Hamza26" />
+    <child name="JohnSnow" />
+    <child name="Sehrish" />
+  </parent>
+  <parent name="Hamza26">
+    <child name="Neha" />
+    <child name="Sara" />
+    <child name="Ayaan" />
+    <child name="JohnSnow" />
+    <child name="Sehrish" />
+  </parent>
+  <parent name="Sehrish">
+    <child name="GreeN-Eyes" />
+    <child name="BholaBacha" />
+    <child name="Eman" />
+    <child name="JohnSnow" />
+    <child name="Sara" />
+    <child name="Ayaan" />
+    <child name="Hamza26" />
+  </parent>
+  <parent name="Bilal25">
+    <child name="GreeN-Eyes" />
+  </parent>
+  <parent name="Shahzad_akram">
+    <child name="BholaBacha" />
+    <child name="FireCracker" />
+  </parent>
+  <parent name="Baazigarr">
+    <child name="Dewana" />
+  </parent>
+  <parent name="Dewana">
+    <child name="Baazigarr" />
+  </parent>
+</bots>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<baazigarr>
+  <start>
+    <msg>sallam</msg>
+    <msg>salam</msg>
+    <msg>assalam o alaikum</msg>
+    <msg>hi there</msg>
+    <msg>salam, kase hain?</msg>
+    <msg>hi</msg>
+  </start>
+  <begin>
+    <msg>What do u do peeps?</msg>
+    <msg>hahahaahahahahah</msg>
+    <msg>koi banda salam tu karay yaar.</msg>
+    <msg>any f here, PM me plzz?</msg>
+    <msg>i am new one here</msg>
+    <msg>any female from Isl, pm me</msg>
+    <msg>sab chup kyun ho??</msg>
+    <msg>me study kerta hun</msg>
+    <msg>any female here, decent cute looking guy, looking for serious and honest friendship</msg>
+  </begin>
+  <communication>
+    <msg>ab yaqeen aya apko me wo nae hu jo ap samaj rahe</msg>
+    <msg>yep all is well</msg>
+    <msg>hahahahahah acha</msg>
+    <msg>any 1 wonna chat wid cute looking guy???</msg>
+    <msg>Nice, Handsome and Dashing guy here, Any girl wonna Chat, PM me please??</msg>
+    <msg>can i wlcm u?</msg>
+    <msg>Did i just asked you anything Mr?</msg>
+    <msg>I dont care your fucking ass</msg>
+    <msg>I see peeps</msg>
+    <msg>k aja tujay pyar krun</msg>
+    <msg>aik zaati masla</msg>
+    <msg>kise ko mardana kamzoori he tou mujhee batyo</msg>
+    <msg>so baaar ye kahay dil</msg>
+    <msg>may chahta tm b kuch adab sekho...</msg>
+    <msg>Mary sary khwab jaleee ha</msg>
+    <msg>any one here for a pm?</msg>
+    <msg>hahaha oki</msg>
+    <msg>any 1 wona have c 2 c ?? PM me plzz ------- only girls</msg>
+    <msg>any 1 here?</msg>
+    <msg>any girl here??</msg>
+    <msg>Nice and decent looking guy here, PM me plzz -------- onky girls</msg>
+    <msg>Beautiful handsome guy here, any girl wonna chat??</msg>
+  </communication>
+  <end>
+    <msg>bhaut neend arahee he</msg>
+    <msg>me ja raha hun</msg>
+    <msg>ok byee</msg>
+    <msg>allah hafiz</msg>
+    <msg>ok Good bye</msg>
+    <msg>Allah Hafiz all</msg>
+    <msg>Byee!</msg>
+  </end>
+</baazigarr>

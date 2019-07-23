@@ -1,0 +1,145 @@
+﻿
+/*************************** Emotions Panel ****************************/
+
+.emoticonPanel {
+    position: absolute;
+    padding: 0px 5px 0px 5px;
+    /*top: -152px;
+    left: 55px;*/
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.emoticonIcon {
+    padding: 4px 2px 0px 2px;
+}
+
+    .emoticonIcon:hover {
+        background-color: lightblue;
+        border-radius: 3px;
+    }
+
+/*************************** Smileys ****************************/
+
+.smiley {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 1px;
+    background: url('/content/images/emoticons/smileys.png');
+}
+
+.smiley1 {
+    background-position: -1px -2px;
+}
+
+.smiley2 {
+    background-position: -586px -62px;
+}
+
+.smiley3 {
+    background-position: -60px -2px;
+}
+
+.smiley4 {
+    background-position: -147px -2px;
+}
+
+.smiley5 {
+    background-position: -206px -2px;
+}
+
+.smiley6 {
+    background-position: -324px -2px;
+}
+
+.smiley7 {
+    background-position: -353px -2px;
+}
+
+.smiley8 {
+    background-position: -1px -32px;
+}
+
+.smiley9 {
+    background-position: -60px -32px;
+}
+
+.smiley10 {
+    background-position: -118px -32px;
+}
+
+.smiley11 {
+    background-position: -264px -32px;
+}
+
+.smiley12 {
+    background-position: -294px -32px;
+}
+
+@media only screen and (max-width:639px) {
+
+    .smiley {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 1px;
+        background: none;
+    }
+
+    .smiley1 {
+        background-image: url('/content/images/emoticons/smiley1.png');
+    }
+
+    .smiley2 {
+        background-image: url('/content/images/emoticons/smiley2.png');
+    }
+
+    .smiley3 {
+        background-image: url('/content/images/emoticons/smiley3.png');
+    }
+
+    .smiley4 {
+        background-image: url('/content/images/emoticons/smiley4.png');
+    }
+
+    .smiley5 {
+        background-image: url('/content/images/emoticons/smiley5.png');
+    }
+
+    .smiley6 {
+        background-image: url('/content/images/emoticons/smiley6.png');
+    }
+
+    .smiley7 {
+        background-image: url('/content/images/emoticons/smiley7.png');
+    }
+
+    .smiley8 {
+        background-image: url('/content/images/emoticons/smiley8.png');
+    }
+
+    .smiley9 {
+        background-image: url('/content/images/emoticons/smiley9.png');
+    }
+
+    .smiley10 {
+        background-image: url('/content/images/emoticons/smiley10.png');
+    }
+
+    .smiley11 {
+        background-image: url('/content/images/emoticons/smiley11.png');
+    }
+
+    .smiley12 {
+        background-image: url('/content/images/emoticons/smiley12.png');
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .emoticonPanel {
+        top: -144px;
+    }
+}

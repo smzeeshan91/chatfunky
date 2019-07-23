@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="../content/images/favicon.png" type="image/x-icon" />
+
+    @Styles.Render("~/mainCss")
+    <link href="~/content/css/admin.css" rel="stylesheet" />
+
+    @Scripts.Render("~/mainJquery")
+    @RenderSection("jScript", false)
+
+</head>
+<body>
+
+    <menu>
+        <div class="topMenu">
+            <div class="icon">
+                <img src="../content/images/favicon.png" class="iconImg" alt="Chatfunky Home">
+                <p class="menuSiteName">CHATFUNKY</p>
+            </div>
+            <div class="tagLine">
+                <p class="tag">Your Online Chat Station!</p>
+                <img src="../content/images/chatsign.png" class="tagImg" alt="Chat">
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </menu>
+
+    <section>
+
+        @RenderBody()
+
+    </section>
+
+    <footer>
+        <div class="footerBottom">
+            <div class="bottomSec">
+                <div class="futureInfo">
+                    <p>© 2016 Chatfunky.com. All rights reserved.</p>
+                    <p class="chatfunkyMode">Beta Release</p>
+                </div>
+                <p style="clear:both"></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

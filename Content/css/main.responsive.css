@@ -1,0 +1,680 @@
+﻿
+@media only screen and (max-width:979px) {
+
+    /*************************** Menu ****************************/
+
+    .topMenu {
+        width: 800px;
+    }
+
+    /************************* Intro *************************/
+
+    .intro {
+        padding: 9% 0% 9% 0%;
+    }
+
+        .intro .content {
+            width: 800px;
+            padding: 15px 0px 30px 0px;
+        }
+
+        .intro h1 {
+            font-size: 40px;
+        }
+
+        .intro p {
+            font-size: 18px;
+        }
+
+    /************************ Promotion Area ************************/
+
+    .promotion {
+        padding: 30px 0px;
+    }
+
+        .promotion .content {
+            width: 800px;
+        }
+
+        .promotion h3 {
+            font-size: 28px;
+            width: 550px;
+        }
+
+        .promotion p {
+            font-size: 18px;
+        }
+
+    /************************ Social Area ************************/
+
+    .featureBlock {
+        height: 240px;
+    }
+
+    .imgBlock {
+        margin: 20px auto 12px auto;
+        width: 120px;
+        height: 120px;
+        border-radius: 66px;
+    }
+
+    .featureBlock h2 {
+        font-size: 15px;
+    }
+
+    /******************** Business Description **********************/
+
+    .businessDescription {
+        box-shadow: 0px -80px 80px -60px lightgray inset;
+    }
+
+        .businessDescription .content {
+            width: 800px;
+            padding: 30px 0px 30px 0px;
+            font-size: 18px;
+        }
+
+    /************************* Total Users **************************/
+
+    .totalUsers {
+        padding: 6px 0px 6px 0px;
+    }
+
+    .totalNo {
+        width: 140px;
+        font-size: 18px;
+    }
+
+    /*************************** Footer ****************************/
+
+    .footerArea {
+        width: 800px;
+    }
+
+    .footerPrimary li {
+        width: 266px;
+    }
+
+    .emailMsg {
+        width: 261px;
+    }
+
+    .messageMsg {
+        width: 259px;
+    }
+
+    .bottomSec {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width:799px) {
+
+    /*************************** Menu ****************************/
+
+    .topMenu {
+        width: 640px;
+    }
+
+    .icon {
+        padding-top: 3px;
+    }
+
+    .iconImg {
+        margin-top: -6px;
+    }
+
+    .menuSiteName {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .slogan {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .tagLine {
+        font-size: 20px;
+    }
+
+    .tag {
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+
+    .tagImg {
+        width: 50px;
+        height: 35px;
+        padding-top: 4px;
+    }
+
+    /*************************** Section ****************************/
+
+    section {
+        padding-top: 45px;
+    }
+
+    /************************* Intro *************************/
+
+    .intro {
+        padding: 8% 0% 8% 0%;
+    }
+
+        .intro .content {
+            width: 640px;
+            padding: 5px 0px 15px 0px;
+        }
+
+        .intro h1 {
+            font-size: 30px;
+        }
+
+        .intro p {
+            line-height: 1.1em;
+        }
+
+    .mainJoinBtn {
+        padding: 5px 40px;
+        font-size: 16px;
+    }
+
+    /************************ Promotion Area ************************/
+
+    .promotion {
+        padding: 20px 0px;
+    }
+
+        .promotion .content {
+            width: 640px;
+        }
+
+        .promotion h3 {
+            font-size: 20px;
+            width: 400px;
+        }
+
+    /************************ Social Area ************************/
+
+    .featureBlock {
+        width: 25%;
+    }
+
+        .featureBlock:nth-child(5) {
+            display: none;
+        }
+
+    /******************** Business Description **********************/
+
+    .businessDescription {
+        box-shadow: 0px -80px 80px -70px lightgray inset;
+    }
+
+        .businessDescription .content {
+            width: 640px;
+        }
+
+    /************************* Total Users **************************/
+
+    .totalUsers {
+        padding: 5px 0px 5px 0px;
+    }
+
+    /************************** Login Area ***************************/
+
+    .loginArea {
+        padding: 50px 0px;
+    }
+
+    /*************************** Footer ****************************/
+
+    .footerArea {
+        width: 640px;
+    }
+
+    .footerPrimary li {
+        width: 213px;
+    }
+
+    .emailMsg {
+        width: 208px;
+    }
+
+    .messageMsg {
+        width: 206px;
+    }
+
+    .bottomSec {
+        width: 640px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+
+    /*************************** Menu ****************************/
+
+    .topMenu {
+        width: 340px;
+    }
+
+    .icon {
+        width: auto;
+    }
+
+    .menuSiteName {
+        display: none;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    .tagLine {
+        font-size: 18px;
+    }
+
+    /*************************** Section ****************************/
+
+    section {
+        padding-top: 44px;
+    }
+
+    /************************* Intro *************************/
+
+    .intro {
+        padding: 0px;
+        background-image: none;
+    }
+
+        .intro .area {
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .intro .content {
+            width: 340px;
+            padding: 30px 0px 40px 0px;
+        }
+
+        .intro h1 {
+            padding-bottom: 10px;
+            text-shadow: 0px 0px 2px white;
+        }
+
+        .intro p {
+            line-height: 1.8em;
+        }
+
+    /************************ Promotion Area ************************/
+    .promotion {
+        padding: 20px 0px;
+    }
+
+        .promotion .content {
+            width: 340px;
+        }
+
+        .promotion h3 {
+            font-size: 18px;
+            width: inherit;
+            border: none;
+        }
+
+    /************************ Social Area ************************/
+
+    .social {
+        background-color: whitesmoke;
+        margin-bottom: 0px;
+    }
+
+    .features {
+        width: 340px;
+        margin: auto;
+    }
+
+    .featureBlock:hover {
+        background-color: lightgray;
+    }
+
+    .featureBlock {
+        width: 170px;
+        margin: auto;
+    }
+
+        .featureBlock:nth-child(5) {
+            display: none;
+        }
+
+        .featureBlock h2 {
+            font-size: 16px;
+        }
+
+    /******************** Business Description **********************/
+
+    .businessDescription {
+        box-shadow: none;
+    }
+
+        .businessDescription .content {
+            width: 340px;
+            line-height: 1.8em;
+        }
+
+    /************************** Login Area ***************************/
+
+    .loginArea {
+    }
+
+    .box {
+        width: 340px;
+    }
+
+    .loginBox {
+        width: inherit;
+    }
+
+    .loginTxt {
+        margin-bottom: 25px;
+        border: none;
+        padding: 0px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .lblUpload {
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .lblUploaded {
+        width: 45px;
+        height: 22px;
+    }
+
+    .lblUploadedie {
+        padding: 48px 31px 48px 31px;
+    }
+
+    .infoArea {
+        float: none;
+        margin: auto;
+        width: inherit;
+        border: none;
+        padding: 0px;
+    }
+
+    .txtBoxUserName {
+        width: 280px;
+        margin: auto;
+        display: block;
+        text-indent: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .moreOptions {
+        display: table;
+        margin: 10px auto 10px auto;
+        font-size: 15px;
+    }
+
+    .opt {
+        margin: auto;
+    }
+
+    /*.gender {
+        margin-left: 66px;
+    }*/
+
+    .loginError {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .joinBtn {
+        width: 120px;
+        height: 35px;
+        margin: auto;
+        font-size: 16px;
+        float: none;
+        display: block;
+        font-weight: bold;
+    }
+
+    .signinBox {
+        width: inherit;
+        margin-top: 20px;
+    }
+
+    .loginOptions {
+        margin-bottom: 20px;
+    }
+
+        .loginOptions p {
+            font-size: 15px;
+        }
+
+    .socialBtn {
+        width: 150px;
+        height: 35px;
+        margin-left: 95px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /*************************** Footer ****************************/
+
+    .footerArea {
+        width: 340px;
+    }
+
+    .footerImg {
+        height: 30px;
+    }
+
+    .footerPrimary {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .footerPrimary li {
+            width: inherit;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+    .iconImgFooter {
+        float: none;
+    }
+
+    .footerSecondary p {
+        width: 340px;
+        padding-right: 0px;
+    }
+
+    .emailMsg {
+        width: 335px;
+    }
+
+    .messageMsg {
+        width: 333px;
+    }
+
+    .footerBottom {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .bottomSec {
+        width: 340px;
+        text-align: center;
+    }
+
+    .futureInfo {
+        float: none;
+    }
+
+    .chatfunkyMode {
+        margin: auto;
+        margin-top: 5px;
+        text-indent: 0px;
+        border-bottom: 20px solid #945a58;
+        border-left: 20px solid #1b1b1a;
+    }
+
+    .androidImage {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    /*************************** Menu ****************************/
+
+    .topMenu {
+        width: 300px;
+    }
+
+    .icon {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .iconImg {
+        margin-top: -5px;
+    }
+
+    .menuSiteName {
+        display: none;
+    }
+
+    .tagLine {
+        font-size: 18px;
+    }
+
+    .tag {
+        padding-top: 12px;
+        margin-right: 0px;
+    }
+
+    .tagImg {
+        display: none;
+    }
+
+    /*************************** Section ****************************/
+
+    section {
+        padding-top: 51px;
+    }
+
+    /************************* Intro *************************/
+
+    .intro .area {
+        background: rgba(0, 0, 0, 0.71);
+    }
+
+    .intro .content {
+        width: 300px;
+    }
+
+    .intro h1 {
+        padding-bottom: 5px;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+
+    /************************ Promotion Area ************************/
+
+    .promotion .content {
+        width: 300px;
+    }
+
+    .promotion p {
+        font-size: 16px;
+    }
+
+    /************************ Social Area ************************/
+
+    .features {
+        width: 300px;
+    }
+
+    .featureBlock {
+        width: 300px;
+        padding-bottom: 10px;
+    }
+
+        .featureBlock:nth-child(5) {
+            display: none;
+        }
+
+    .imgBlock {
+        margin: 20px auto 12px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+    }
+
+    .featureBlock h2 {
+        font-size: 20px;
+    }
+
+    .featureBlock p {
+        padding-top: 0px;
+    }
+
+    /******************** Business Description **********************/
+
+    .businessDescription .content {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    /************************* Total Users **************************/
+
+    .totalNo {
+        /*width: 120px;*/
+        font-size: 16px;
+    }
+
+    /************************** Login Area ***************************/
+
+    .loginArea {
+    }
+
+    .box {
+        width: 300px;
+    }
+
+    .socialBtn {
+        margin-left: 75px;
+        font-size: 15px;
+    }
+
+    /*************************** Footer ****************************/
+
+    .footerArea {
+        width: 300px;
+    }
+
+    .footerSecondary {
+        width: 300px;
+    }
+
+        .footerSecondary p {
+            width: 300px;
+        }
+
+    .emailMsg {
+        width: 295px;
+    }
+
+    .messageMsg {
+        width: 293px;
+    }
+
+    .bottomSec {
+        width: 300px;
+    }
+}

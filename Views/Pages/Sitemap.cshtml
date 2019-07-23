@@ -1,0 +1,81 @@
+﻿@{
+    Layout = "~/Views/Master/Main.cshtml";
+}
+
+@section cssStyle{
+
+    <style type="text/css">
+        section {
+            padding: 200px 0px 200px 0px;
+            box-shadow: 0px 0px 200px lightgray inset;
+        }
+
+        .totalUsers {
+            margin: auto;
+        }
+
+        .sitemapDialog {
+            width: 980px;
+            padding: 20px 0px 0px 0px;
+            margin: auto;
+        }
+
+        h1 {
+            padding-bottom: 5px;
+            border: 0px solid black;
+            border-bottom-width: 1px;
+        }
+
+        .sitemapDialog ul {
+            list-style: none;
+            padding-left: 15px;
+        }
+
+        .sitemapDialog a {
+            text-decoration: none;
+            color: black;
+        }
+
+            .sitemapDialog a:hover {
+                text-decoration: underline;
+            }
+
+        @@media only screen and (max-width:979px) {
+            .sitemapDialog {
+                width: 800px;
+            }
+        }
+
+        @@media only screen and (max-width:799px) {
+            .sitemapDialog {
+                width: 640px;
+            }
+        }
+
+        @@media only screen and (max-width:639px) {
+            .sitemapDialog {
+                width: 340px;
+            }
+        }
+
+        @@media only screen and (max-width:400px) {
+            .sitemapDialog {
+                width: 300px;
+            }
+        }
+
+        .footerImg {
+            background-color: #e8e8e8;
+        }
+    </style>
+
+}
+
+<div class="sitemapDialog">
+    <h1>Sitemap</h1>
+    <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+    </ul>
+</div>

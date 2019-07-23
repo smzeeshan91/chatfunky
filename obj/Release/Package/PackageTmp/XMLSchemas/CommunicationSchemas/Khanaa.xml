@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<khanaa>
+  <start>
+    <msg>hello room</msg>
+    <msg>hi</msg>
+  </start>
+  <begin>
+    <msg>kesaa chal raa he?</msg>
+    <msg>howz going everybody?</msg>
+    <msg>hi all</msg>
+    <msg>Shukar de</msg>
+    <msg>salamuna</msg>
+    <msg>Ta sanga yeh?</msg>
+    <msg>sanga chal de yarano</msg>
+  </begin>
+  <communication>
+    <msg>dera mooda pas</msg>
+    <msg>Asal ke Za dera mooda pas online raghlam</msg>
+    <msg>hahaha oa.. za ham A1 yama.. tha akhpal haal waya...</msg>
+    <msg>Da Allah Shukar de</msg>
+    <msg>yup.. lol na dera khuwadawar snacks we</msg>
+    <msg>biyaaa</msg>
+    <msg>Traskoon chips?</msg>
+    <msg>Traskoon means spicy</msg>
+    <msg>uni der fazool ze wee</msg>
+    <msg>Hahahah</msg>
+    <msg>na... us da april ki dy inshaaALLAH</msg>
+    <msg>pa convocation sa ke. they are giving you a degree only. A degree that has no benefits LOL</msg>
+    <msg>ahhah</msg>
+    <msg>Lol</msg>
+    <msg>I do not agree with your view</msg>
+    <msg>uni ke loferee</msg>
+    <msg>mizh uni khu school wu</msg>
+    <msg>na... school ye hm sharmawaly wu..</msg>
+    <msg>mizh uni co nawa.. so there was no lofary</msg>
+    <msg>bya kha daa</msg>
+    <msg>Hahahaha</msg>
+    <msg>Girl uni theek daa</msg>
+    <msg>Nah</msg>
+    <msg>agree</msg>
+    <msg>job naki?</msg>
+    <msg>inshaaALLAH...daye sha kaar ukru</msg>
+    <msg>job na kawal ghwarhee dalta</msg>
+    <msg>da Khaira</msg>
+    <msg>Canada taa rawan de da Roje na pas</msg>
+    <msg>pakhpala lagya de</msg>
+    <msg>nor kha poya de</msg>
+    <msg>za larham ... tha akhpal gappa kawa..</msg>
+    <msg>I gotta eat</msg>
+    <msg>ALLAh pa aman</msg>
+    <msg>chapli kabab der khwand kawee</msg>
+    <msg>wala oa bia da quetta chapli kabab</msg>
+    <msg>Hahahaha</msg>
+    <msg>za khali da sheedo chai kom.. nor me da yaw chai sa na lagyzhi</msg>
+    <msg>maze de dee</msg>
+    <msg>Zama pakhpala sirf da payo chaye khwakha wee</msg>
+    <msg>payo chai?? whts that</msg>
+    <msg>poye?? means sheedy?</msg>
+    <msg>da payo chaye</msg>
+    <msg>aoa</msg>
+    <msg>oa walah.. nr khuwan hm naki</msg>
+    <msg>Hahahaha</msg>
+    <msg>Za dinner kom</msg>
+    <msg>roosta khabare kawoo</msg>
+    <msg>wakhla as always.. zaan tha di ghamuna jorh kru.. us ye wrsara speenawa</msg>
+    <msg>da sa ghamoona</msg>
+    <msg>Za kho beghama badshah yam</msg>
+    <msg>Hahahahaha</msg>
+  </communication>
+  <end>
+    <msg>khuda hafiz</msg>
+    <msg>allah hafiz</msg>
+  </end>
+</khanaa>

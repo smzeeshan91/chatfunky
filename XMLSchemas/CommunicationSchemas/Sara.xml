@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sara>
+  <start>
+    <msg>hello</msg>
+    <msg>salam all</msg>
+    <msg>assalam o alaikum</msg>
+    <msg>salam alaikum</msg>
+    <msg>aoa all</msg>
+    <msg>hi all</msg>
+    <msg>Hello All</msg>
+  </start>
+  <begin>
+    <msg>XD</msg>
+    <msg>hello, howz u?</msg>
+    <msg>Hello</msg>
+    <msg>suna aye aaj koi khaas baat he</msg>
+    <msg>can we chat?</msg>
+    <msg>kase hain sab</msg>
+    <msg>How are you?</msg>
+    <msg>Hello! how are you?</msg>
+  </begin>
+  <communication>
+    <msg>tailor abi sy agaya</msg>
+    <msg>Nothing</msg>
+    <msg>kaash Mein b pics krsakti</msg>
+    <msg>acha uncle</msg>
+    <msg>I guess nop</msg>
+    <msg>aaj tabiat kharaab he bhaut lolx</msg>
+    <msg>eman kase ho?</msg>
+    <msg>hmm lar ni rahee eman...n mjee kaha lagee bee chalhat.com apne trf se hahaha</msg>
+    <msg>arey eman waloo hahah</msg>
+    <msg>Tum btaou</msg>
+    <msg>koi na bulaye mjhy</msg>
+    <msg>I'm good</msg>
+    <msg>yayy!</msg>
+    <msg>lolx DHA suffa se ker letee BBA</msg>
+    <msg>Gud gud</msg>
+    <msg>Baqi sab lowg ghaib</msg>
+    <msg>koi ni abhee!</msg>
+    <msg>Any handsome guy around?</msg>
+    <msg>tumharee examz ho gayee hain?</msg>
+    <msg>Kahan Pohnch gaye hum log !! :( Western Culture ..</msg>
+    <msg>please wait</msg>
+    <msg>yaar mera lapy kharaab phir see!</msg>
+    <msg>brb w8</msg>
+    <msg>nope lolx</msg>
+    <msg>eman yeh!</msg>
+    <msg>just one? I don't believe you</msg>
+    <msg> Abhi tou large font ka option he khatam krdia h na</msg>
+    <msg>nae tu</msg>
+    <msg>what is gOp govt of pakistan</msg>
+    <msg> Dill Sambhal tou jaaye ga par sanmbhle nahi .. Tmhee Koi Rasta Dikhaao naw </msg>
+    <msg>OMG</msg>
+    <msg>Ayattt</msg>
+    <msg>sab pagal ho jane ab </msg>
+    <msg>Nice Bhai</msg>
+    <mgs>aree ni bhi</mgs>
+  </communication>
+  <end>
+    <msg>k m going now</msg>
+    <msg>byee</msg>
+    <msg>me ja rahe hun</msg>
+    <msg>baad me baat keree ge</msg>
+    <msg>ok byee</msg>
+    <msg>c u later</msg>
+    <msg>ok byee tc</msg>
+  </end>
+</sara>

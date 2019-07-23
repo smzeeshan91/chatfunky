@@ -1,0 +1,369 @@
+﻿
+/*************************** Section ****************************/
+
+section {
+    padding: 5% 0px 5% 0px;
+}
+
+/************************ Login Area ************************/
+
+.loginArea {
+    width: 980px;
+    margin: auto;
+    position: relative;
+    border: 0px;
+    border-radius: 0px;
+    border-top-width: 0px;
+    border-top-color: transparent;
+    padding: 0px;
+    background: none;
+}
+
+.adminText {
+    border: 0px solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.loginBox {
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px 150px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    float:none;
+}
+
+.loginTxt {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.txtBoxCode {
+    background-color: #f2ffd8;
+    text-align: center;
+    text-indent: 0px;
+    margin-bottom: 5px;
+}
+
+.loginError {
+    color: red;
+    padding: 5px 0px 10px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.joinBtn {
+    margin: auto;
+}
+
+/************************************** Admin Panel Page **************************************/
+
+/******************** Admin Text *********************/
+
+.adminText {
+    border: 0px solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
+}
+
+/******************** Header Section *********************/
+
+.header {
+    width: 980px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    width: auto;
+    float: left;
+}
+
+.logout {
+    width: auto;
+    float: right;
+}
+
+    .logout a {
+        text-decoration: none;
+        color: #006393;
+    }
+
+        .logout a:hover {
+            color: red;
+        }
+
+/******************** Admin Section *********************/
+
+.adminSec {
+    width: 980px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 2px 2px gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+/******************** Admin Section Related Divs *********************/
+
+.adminHeader {
+    padding: 10px 0px 10px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #C0C0C0;
+}
+
+.adminArea {
+    padding: 8px 8px 8px 8px;
+    font-size: 12px;
+}
+
+/******************** Admin Area Related Divs *********************/
+
+/******************** Admin Options *********************/
+
+.adminOptions {
+    width: 150px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.admOpHeader {
+    background-color: lightgray;
+    border: solid;
+    padding: 8px 8px 8px 8px;
+    border-bottom-color: gray;
+    border-width: 0px 0px 2px 0px;
+}
+
+.admOps {
+    padding-top: 10px;
+}
+
+.option {
+    text-indent: 5px;
+    border: 0px solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    font-weight: bold;
+    padding: 8px 0px 8px 0px;
+}
+
+.optionSelected {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+/******************** Admin Details *********************/
+
+.adminDetails {
+    width: 804px;
+    border: 1px solid gray;
+    float: right;
+}
+
+.userHeaderRow {
+    padding: 8px 8px 8px 8px;
+    border: solid;
+    border-bottom-color: gray;
+    border-width: 0px 0px 2px 0px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.userItem {
+    padding: 8px 8px 8px 8px;
+    border-style: solid;
+    border-bottom-color: gray;
+    border-width: 0px 0px 1px 0px;
+}
+
+.userSNo {
+    width: 80px;
+    float: left;
+}
+
+.name {
+    width: 200px;
+    margin-left: 6px;
+    float: left;
+}
+
+.userName {
+    width: 200px;
+    margin-left: 6px;
+    float: left;
+}
+
+.modDel {
+    width: 50px;
+    margin-right: 10px;
+    float: right;
+}
+
+/******************** Add New Page *********************/
+
+.modBox {
+    width: 250px;
+    margin: initial;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.modTxt {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.txtBoxUserName {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.modError {
+    color: red;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.modBtn {
+    width: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.added {
+    color: #03ad21;
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+/************************************** Choose Section **************************************/
+
+.chooseDialog {
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    margin-left: -200px;
+    z-index: 1;
+}
+
+/************************************** Choose Header **************************************/
+
+.chooseHeader {
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    text-indent: 10px;
+    background-color: #C0C0C0;
+}
+
+/********************* Choose Header Related Divs ************************/
+
+.headerText {
+    padding-top: 2px;
+    width: auto;
+    float: left;
+}
+
+.headerBtn {
+    position: relative;
+    top: -1px;
+    right: 6px;
+    float: right;
+}
+
+.btnClose {
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+    font-size: 10px;
+    font-family: Arial;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: inherit;
+}
+
+    .btnClose:hover {
+        box-shadow: 0px 0px 2px black inset;
+        cursor: pointer;
+    }
+
+/************************************** Choose Area **************************************/
+
+.chooseArea {
+    padding: 10px;
+}
+
+    .chooseArea .hrow {
+        border: 1px solid lightgray;
+        height: 0px;
+        margin: 10px 0px 10px 0px;
+        width: 370px;
+    }
+
+#msg {
+    font-size: 14px;
+}
+
+/********************* Choose Area Related Buttons ************************/
+
+.btnOk {
+    width: 80px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #0986d8;
+}
+
+    .btnOk:hover {
+        box-shadow: 0px 12px 10px #006393 inset;
+        cursor: pointer;
+    }
+
+.btnCancel {
+    width: 80px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #CCDADD;
+}
+
+    .btnCancel:hover {
+        background-color: #9BB7BD;
+        cursor: pointer;
+    }

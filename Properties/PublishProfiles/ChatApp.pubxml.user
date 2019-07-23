@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Syed M Zeeshan\Desktop\ChatApp.Deployed</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>05/31/2016 09:45:40</publishTime>
+    </File>
+    <File Include="bin/ChatApp.Bot.dll">
+      <publishTime>09/27/2016 19:11:40</publishTime>
+    </File>
+    <File Include="bin/ChatApp.Bots.dll">
+      <publishTime>04/16/2017 20:23:11</publishTime>
+    </File>
+    <File Include="bin/ChatApp.Web.dll">
+      <publishTime>04/22/2017 17:55:57</publishTime>
+    </File>
+    <File Include="bin/Chatfunky.FemaleBot.dll">
+      <publishTime>09/26/2016 17:23:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>03/19/2016 21:56:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>03/19/2016 21:56:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>04/22/2017 17:39:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>04/22/2017 17:39:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>03/19/2016 21:56:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>03/19/2016 21:56:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WebSockets.dll">
+      <publishTime>11/21/2016 12:32:11</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/19/2016 21:56:55</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>03/19/2016 21:56:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>04/26/2016 23:55:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>04/22/2017 17:39:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/19/2016 21:55:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>04/26/2016 23:55:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>04/26/2016 23:55:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/19/2016 21:55:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>05/31/2016 09:45:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/19/2016 21:55:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/19/2016 21:55:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/19/2016 21:55:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/19/2016 21:55:01</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>05/31/2016 09:45:40</publishTime>
+    </File>
+    <File Include="bin/ZetaProducerHtmlCompressor.dll">
+      <publishTime>05/09/2016 11:15:24</publishTime>
+    </File>
+    <File Include="Content/css/admin.css">
+      <publishTime>11/26/2016 22:00:23</publishTime>
+    </File>
+    <File Include="Content/css/animate.css">
+      <publishTime>02/11/2017 13:16:06</publishTime>
+    </File>
+    <File Include="Content/css/chat.css">
+      <publishTime>12/01/2016 21:38:51</publishTime>
+    </File>
+    <File Include="Content/css/chat.responsive.css">
+      <publishTime>02/11/2017 13:22:59</publishTime>
+    </File>
+    <File Include="Content/css/fonts.css">
+      <publishTime>11/12/2016 21:26:15</publishTime>
+    </File>
+    <File Include="Content/css/main.css">
+      <publishTime>11/12/2016 22:38:01</publishTime>
+    </File>
+    <File Include="Content/css/main.responsive.css">
+      <publishTime>11/12/2016 22:37:56</publishTime>
+    </File>
+    <File Include="Content/css/privacy.css">
+      <publishTime>11/12/2016 21:26:15</publishTime>
+    </File>
+    <File Include="Content/css/smiley.css">
+      <publishTime>02/17/2017 17:09:05</publishTime>
+    </File>
+    <File Include="Content/css/terms.css">
+      <publishTime>11/12/2016 21:26:15</publishTime>
+    </File>
+    <File Include="Content/fonts/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>07/02/2016 16:49:31</publishTime>
+    </File>
+    <File Include="Content/fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2">
+      <publishTime>07/02/2016 16:49:31</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2">
+      <publishTime>07/02/2016 16:49:31</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTaaRobkAwv3vxw3jMhVENGA.woff2">
+      <publishTime>07/02/2016 16:49:31</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTf8zf_FOSsgRmwsS7Aa9k2w.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTRWV49_lSm1NYrwo-zkhivY.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTT0LW-43aMEzIO6XUTLjad8.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzBWV49_lSm1NYrwo-zkhivY.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzD0LW-43aMEzIO6XUTLjad8.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzJX5f-9o1vgP2EXwfjgl7AY.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzK-j2U0lmluP9RWlSytm3ho.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzKaRobkAwv3vxw3jMhVENGA.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/k3k702ZOKiLJc3WVjuplzP8zf_FOSsgRmwsS7Aa9k2w.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNShWV49_lSm1NYrwo-zkhivY.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNSj0LW-43aMEzIO6XUTLjad8.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNSpX5f-9o1vgP2EXwfjgl7AY.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNSq-j2U0lmluP9RWlSytm3ho.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNSqaRobkAwv3vxw3jMhVENGA.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/MTP_ySUJH_bn48VBG8sNSv8zf_FOSsgRmwsS7Aa9k2w.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/fonts/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>07/02/2016 16:49:32</publishTime>
+    </File>
+    <File Include="Content/images/admin.png">
+      <publishTime>07/22/2016 21:16:21</publishTime>
+    </File>
+    <File Include="Content/images/androidapp.png">
+      <publishTime>09/03/2016 23:58:15</publishTime>
+    </File>
+    <File Include="Content/images/attachement.png">
+      <publishTime>09/17/2016 21:53:50</publishTime>
+    </File>
+    <File Include="Content/images/audio.png">
+      <publishTime>12/01/2016 21:39:01</publishTime>
+    </File>
+    <File Include="Content/images/background.jpg">
+      <publishTime>10/11/2016 20:46:53</publishTime>
+    </File>
+    <File Include="Content/images/banner.jpg">
+      <publishTime>10/05/2016 12:33:49</publishTime>
+    </File>
+    <File Include="Content/images/banner.png">
+      <publishTime>02/11/2017 20:05:53</publishTime>
+    </File>
+    <File Include="Content/images/blockfemale.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/blockmale.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/blockunknownuser.png">
+      <publishTime>08/22/2016 13:58:36</publishTime>
+    </File>
+    <File Include="Content/images/chatfunky.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/chatsign.png">
+      <publishTime>11/12/2016 21:12:09</publishTime>
+    </File>
+    <File Include="Content/images/ddarrow.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley1.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley10.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley11.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley12.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley2.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley3.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley4.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley5.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley6.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley7.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley8.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiley9.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smileys.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emoticons/smiling.png">
+      <publishTime>11/06/2016 20:44:56</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo1.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo2.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo3.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo4.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo5.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo6.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo7.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo8.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/emotions/emo9.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/favicon.png">
+      <publishTime>02/11/2017 19:34:46</publishTime>
+    </File>
+    <File Include="Content/images/fb.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/fb2.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/fblogin.png">
+      <publishTime>09/30/2016 18:19:01</publishTime>
+    </File>
+    <File Include="Content/images/feature1.png">
+      <publishTime>09/29/2016 14:47:30</publishTime>
+    </File>
+    <File Include="Content/images/feature2.png">
+      <publishTime>09/29/2016 14:47:29</publishTime>
+    </File>
+    <File Include="Content/images/feature3.png">
+      <publishTime>09/29/2016 14:47:26</publishTime>
+    </File>
+    <File Include="Content/images/feature4.png">
+      <publishTime>09/17/2016 21:33:28</publishTime>
+    </File>
+    <File Include="Content/images/feature5.png">
+      <publishTime>09/29/2016 14:47:24</publishTime>
+    </File>
+    <File Include="Content/images/female.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/googlelogin.png">
+      <publishTime>10/01/2016 15:15:32</publishTime>
+    </File>
+    <File Include="Content/images/image.png">
+      <publishTime>09/17/2016 21:53:50</publishTime>
+    </File>
+    <File Include="Content/images/linkedinlogin.png">
+      <publishTime>10/01/2016 21:06:20</publishTime>
+    </File>
+    <File Include="Content/images/loading.gif">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/logout.png">
+      <publishTime>11/06/2016 20:34:14</publishTime>
+    </File>
+    <File Include="Content/images/male.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/mod.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/images/msgsending.gif">
+      <publishTime>10/03/2016 23:13:18</publishTime>
+    </File>
+    <File Include="Content/images/people.jpg">
+      <publishTime>09/29/2016 18:34:07</publishTime>
+    </File>
+    <File Include="Content/images/publicchat.png">
+      <publishTime>11/20/2016 19:48:23</publishTime>
+    </File>
+    <File Include="Content/images/search.png">
+      <publishTime>11/12/2016 20:03:16</publishTime>
+    </File>
+    <File Include="Content/images/slidenext.png">
+      <publishTime>11/12/2016 19:51:23</publishTime>
+    </File>
+    <File Include="Content/images/slideprev.png">
+      <publishTime>11/12/2016 19:52:06</publishTime>
+    </File>
+    <File Include="Content/images/typing.gif">
+      <publishTime>11/12/2016 20:32:05</publishTime>
+    </File>
+    <File Include="Content/images/unknownuser.png">
+      <publishTime>08/22/2016 13:58:36</publishTime>
+    </File>
+    <File Include="Content/images/useropt.png">
+      <publishTime>07/22/2016 21:16:22</publishTime>
+    </File>
+    <File Include="Content/js/audio/chatAudioMsg.js">
+      <publishTime>01/07/2017 19:35:54</publishTime>
+    </File>
+    <File Include="Content/js/audio/libmp3lame.min.js">
+      <publishTime>01/02/2017 21:40:47</publishTime>
+    </File>
+    <File Include="Content/js/audio/mp3Worker.js">
+      <publishTime>01/02/2017 21:40:47</publishTime>
+    </File>
+    <File Include="Content/js/audio/recorderWorker.js">
+      <publishTime>01/02/2017 21:40:47</publishTime>
+    </File>
+    <File Include="Content/js/audio/recordmp3.js">
+      <publishTime>01/04/2017 23:05:13</publishTime>
+    </File>
+    <File Include="Content/js/chat.js">
+      <publishTime>04/05/2017 00:09:05</publishTime>
+    </File>
+    <File Include="Content/js/chatBxSlider.js">
+      <publishTime>09/25/2016 23:35:38</publishTime>
+    </File>
+    <File Include="Content/js/chatCommon.js">
+      <publishTime>03/21/2017 22:50:23</publishTime>
+    </File>
+    <File Include="Content/js/chatFileOptions.js">
+      <publishTime>02/17/2017 21:44:18</publishTime>
+    </File>
+    <File Include="Content/js/chatFileUploader.js">
+      <publishTime>12/01/2016 23:14:13</publishTime>
+    </File>
+    <File Include="Content/js/chatOptions.js">
+      <publishTime>03/21/2017 21:54:34</publishTime>
+    </File>
+    <File Include="Content/js/chatSearch.js">
+      <publishTime>03/21/2017 23:09:57</publishTime>
+    </File>
+    <File Include="Content/js/chatSlider.js">
+      <publishTime>11/19/2016 18:38:16</publishTime>
+    </File>
+    <File Include="Content/js/chatSmileys.js">
+      <publishTime>02/17/2017 21:43:28</publishTime>
+    </File>
+    <File Include="Content/js/fbsdk.js">
+      <publishTime>09/30/2016 18:49:48</publishTime>
+    </File>
+    <File Include="Content/js/home.js">
+      <publishTime>11/06/2016 20:32:35</publishTime>
+    </File>
+    <File Include="Content/js/jquery-1.11.0.min.js">
+      <publishTime>01/02/2017 22:07:46</publishTime>
+    </File>
+    <File Include="Content/js/jquery-2.2.2.min.js">
+      <publishTime>05/01/2016 23:19:24</publishTime>
+    </File>
+    <File Include="Content/js/jquery-3.1.1.min.js">
+      <publishTime>02/17/2017 20:07:13</publishTime>
+    </File>
+    <File Include="Content/js/jquery-ui.min.js">
+      <publishTime>02/17/2017 16:00:20</publishTime>
+    </File>
+    <File Include="Content/js/jquery.signalR-2.2.0.js">
+      <publishTime>03/19/2016 21:57:08</publishTime>
+    </File>
+    <File Include="Content/js/jquery.signalR-2.2.0.min.js">
+      <publishTime>02/17/2017 20:54:22</publishTime>
+    </File>
+    <File Include="Content/js/jquery.signalR-hubs.js">
+      <publishTime>11/20/2016 19:54:49</publishTime>
+    </File>
+    <File Include="Content/js/netSync.js">
+      <publishTime>03/21/2017 23:30:20</publishTime>
+    </File>
+    <File Include="Content/js/site.js">
+      <publishTime>02/17/2017 20:08:55</publishTime>
+    </File>
+    <File Include="Content/js/socket.js">
+      <publishTime>04/02/2017 16:30:15</publishTime>
+    </File>
+    <File Include="Content/Minified/css/chat.css">
+      <publishTime>05/01/2016 23:31:36</publishTime>
+    </File>
+    <File Include="Content/Minified/css/main.css">
+      <publishTime>05/03/2016 00:40:55</publishTime>
+    </File>
+    <File Include="Content/Minified/css/privacy.css">
+      <publishTime>05/01/2016 23:26:24</publishTime>
+    </File>
+    <File Include="Content/Minified/css/terms.css">
+      <publishTime>05/01/2016 23:26:24</publishTime>
+    </File>
+    <File Include="Content/Minified/js/jquery-2.2.2.min.js">
+      <publishTime>05/01/2016 23:19:24</publishTime>
+    </File>
+    <File Include="Content/Minified/js/jquery.signalR-2.2.0.min.js">
+      <publishTime>05/01/2016 23:19:24</publishTime>
+    </File>
+    <File Include="Content/Minified/js/site.js">
+      <publishTime>05/03/2016 01:32:18</publishTime>
+    </File>
+    <File Include="Content/Normal/css/chat.css">
+      <publishTime>05/01/2016 23:31:37</publishTime>
+    </File>
+    <File Include="Content/Normal/css/main.css">
+      <publishTime>05/03/2016 00:46:15</publishTime>
+    </File>
+    <File Include="Content/Normal/css/privacy.css">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/css/terms.css">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/banner.jpg">
+      <publishTime>05/03/2016 00:45:58</publishTime>
+    </File>
+    <File Include="Content/Normal/images/banner.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/blockfemale.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/blockmale.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo1.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo2.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo3.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo4.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo5.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo6.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo7.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo8.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/emotions/emo9.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/favicon.png">
+      <publishTime>04/30/2016 23:54:38</publishTime>
+    </File>
+    <File Include="Content/Normal/images/fb.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/fb2.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/female.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/images/male.png">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/js/jquery-2.2.2.min.js">
+      <publishTime>04/07/2016 23:15:19</publishTime>
+    </File>
+    <File Include="Content/Normal/js/jquery.signalR-2.2.0.js">
+      <publishTime>03/19/2016 21:57:08</publishTime>
+    </File>
+    <File Include="Content/Normal/js/jquery.signalR-2.2.0.min.js">
+      <publishTime>03/19/2016 21:57:08</publishTime>
+    </File>
+    <File Include="Content/Normal/js/site.js">
+      <publishTime>05/03/2016 01:31:33</publishTime>
+    </File>
+    <File Include="Content/plugins/bxSlider/jquery.bxslider.min.js">
+      <publishTime>06/04/2016 10:39:32</publishTime>
+    </File>
+    <File Include="Content/plugins/images/bx_loader.gif">
+      <publishTime>06/04/2016 10:39:32</publishTime>
+    </File>
+    <File Include="Content/plugins/images/controls.png">
+      <publishTime>06/04/2016 10:39:32</publishTime>
+    </File>
+    <File Include="Content/plugins/jquery.bxslider.css">
+      <publishTime>06/22/2016 00:52:56</publishTime>
+    </File>
+    <File Include="Content/plugins/jquery.bxslider.min.js">
+      <publishTime>06/04/2016 10:39:32</publishTime>
+    </File>
+    <File Include="Content/plugins/plupLoad/plupload-cancel.png">
+      <publishTime>08/27/2016 13:55:01</publishTime>
+    </File>
+    <File Include="Content/plugins/plupLoad/plupload.css">
+      <publishTime>09/17/2016 22:05:13</publishTime>
+    </File>
+    <File Include="Content/plugins/plupLoad/plupload.full.min.js">
+      <publishTime>08/29/2016 00:01:40</publishTime>
+    </File>
+    <File Include="error.html">
+      <publishTime>11/10/2016 23:43:57</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/19/2016 21:59:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/22/2017 17:40:01</publishTime>
+    </File>
+    <File Include="robots.txt">
+      <publishTime>12/07/2016 00:40:50</publishTime>
+    </File>
+    <File Include="Sitemap.xml">
+      <publishTime>02/13/2017 21:58:18</publishTime>
+    </File>
+    <File Include="Views/Main/Chat.cshtml">
+      <publishTime>04/30/2016 23:18:49</publishTime>
+    </File>
+    <File Include="Views/Main/ChatApp.cshtml">
+      <publishTime>04/30/2016 20:52:07</publishTime>
+    </File>
+    <File Include="Views/Main/Index.cshtml">
+      <publishTime>04/30/2016 17:11:55</publishTime>
+    </File>
+    <File Include="Views/Main/Privacy.cshtml">
+      <publishTime>04/30/2016 23:24:19</publishTime>
+    </File>
+    <File Include="Views/Main/Terms.cshtml">
+      <publishTime>04/30/2016 23:24:24</publishTime>
+    </File>
+    <File Include="Views/Master/Main.cshtml">
+      <publishTime>02/17/2017 21:06:48</publishTime>
+    </File>
+    <File Include="Views/Minified/Master/Main.cshtml">
+      <publishTime>05/01/2016 23:45:50</publishTime>
+    </File>
+    <File Include="Views/Minified/Pages/Chat.cshtml">
+      <publishTime>05/01/2016 23:45:57</publishTime>
+    </File>
+    <File Include="Views/Minified/Pages/Index.cshtml">
+      <publishTime>05/01/2016 23:45:24</publishTime>
+    </File>
+    <File Include="Views/Minified/Pages/Privacy.cshtml">
+      <publishTime>05/01/2016 23:23:15</publishTime>
+    </File>
+    <File Include="Views/Minified/Pages/Terms.cshtml">
+      <publishTime>05/01/2016 23:23:15</publishTime>
+    </File>
+    <File Include="Views/Normal/Master/Main.cshtml">
+      <publishTime>05/01/2016 23:22:41</publishTime>
+    </File>
+    <File Include="Views/Normal/Pages/Chat.cshtml">
+      <publishTime>05/01/2016 23:29:22</publishTime>
+    </File>
+    <File Include="Views/Normal/Pages/Index.cshtml">
+      <publishTime>05/01/2016 23:11:52</publishTime>
+    </File>
+    <File Include="Views/Normal/Pages/Privacy.cshtml">
+      <publishTime>05/01/2016 23:21:55</publishTime>
+    </File>
+    <File Include="Views/Normal/Pages/Terms.cshtml">
+      <publishTime>05/01/2016 23:22:06</publishTime>
+    </File>
+    <File Include="Views/Pages/Chat.cshtml">
+      <publishTime>03/21/2017 23:33:55</publishTime>
+    </File>
+    <File Include="Views/Pages/Home.cshtml">
+      <publishTime>02/17/2017 21:06:53</publishTime>
+    </File>
+    <File Include="Views/Pages/Index.cshtml">
+      <publishTime>05/02/2016 00:01:44</publishTime>
+    </File>
+    <File Include="Views/Pages/Mod.cshtml">
+      <publishTime>11/26/2016 20:46:37</publishTime>
+    </File>
+    <File Include="Views/Pages/Privacy.cshtml">
+      <publishTime>09/30/2016 14:22:57</publishTime>
+    </File>
+    <File Include="Views/Pages/Sitemap.cshtml">
+      <publishTime>09/30/2016 14:23:29</publishTime>
+    </File>
+    <File Include="Views/Pages/Terms.cshtml">
+      <publishTime>09/30/2016 14:27:51</publishTime>
+    </File>
+    <File Include="Views/Panel/Master/Main.cshtml">
+      <publishTime>11/26/2016 20:38:18</publishTime>
+    </File>
+    <File Include="Views/Panel/Pages/AddNew.cshtml">
+      <publishTime>07/16/2016 12:44:17</publishTime>
+    </File>
+    <File Include="Views/Panel/Pages/Login.cshtml">
+      <publishTime>11/26/2016 20:38:07</publishTime>
+    </File>
+    <File Include="Views/Panel/Pages/ModList.cshtml">
+      <publishTime>07/16/2016 12:56:44</publishTime>
+    </File>
+    <File Include="Views/Shared/Main.cshtml">
+      <publishTime>05/01/2016 00:00:09</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>06/22/2016 00:46:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/22/2017 17:43:23</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationBots.xml">
+      <publishTime>04/22/2017 17:31:47</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/AaShQii.xml">
+      <publishTime>04/04/2017 18:45:19</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Aliza.xml">
+      <publishTime>04/03/2017 22:56:01</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/AmirJoya.xml">
+      <publishTime>04/04/2017 18:35:00</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Ayaan.xml">
+      <publishTime>04/05/2017 22:21:09</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Baazigarr.xml">
+      <publishTime>04/08/2017 19:59:00</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/BholaBacha.xml">
+      <publishTime>04/03/2017 01:25:58</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Blood_Seeker.xml">
+      <publishTime>04/10/2017 23:33:13</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Diyyaa.xml">
+      <publishTime>04/10/2017 23:32:33</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Eman.xml">
+      <publishTime>04/02/2017 18:19:00</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/FireCracker.xml">
+      <publishTime>04/04/2017 18:58:31</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/GreeN-Eyes.xml">
+      <publishTime>04/03/2017 00:29:24</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Hamza26.xml">
+      <publishTime>04/02/2017 23:46:22</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Iffi.xml">
+      <publishTime>04/03/2017 01:07:03</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/James.xml">
+      <publishTime>04/01/2017 18:45:43</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Jazib.xml">
+      <publishTime>04/15/2017 20:41:09</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/JDee.xml">
+      <publishTime>04/15/2017 19:36:13</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/JohnSnow.xml">
+      <publishTime>04/05/2017 22:20:47</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Khanaa.xml">
+      <publishTime>04/05/2017 22:55:12</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Khoobsoorat.xml">
+      <publishTime>04/05/2017 23:05:04</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/King_of_Hrtzz.xml">
+      <publishTime>04/15/2017 20:35:33</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/LalaGujjar.xml">
+      <publishTime>04/04/2017 04:50:27</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/MamooJaan.xml">
+      <publishTime>04/04/2017 20:47:35</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Manal.xml">
+      <publishTime>04/04/2017 19:42:08</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Mubeen.xml">
+      <publishTime>04/04/2017 04:50:32</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Mystic.xml">
+      <publishTime>04/04/2017 20:10:18</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Namaloom.xml">
+      <publishTime>04/03/2017 22:47:07</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Neha.xml">
+      <publishTime>04/04/2017 20:09:59</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Peshawar_Man.xml">
+      <publishTime>04/05/2017 22:55:15</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/RaffatKhan.xml">
+      <publishTime>04/02/2017 18:17:10</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Sara.xml">
+      <publishTime>04/02/2017 18:10:31</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/SarfarazJutt.xml">
+      <publishTime>04/03/2017 00:16:54</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/StevePapp.xml">
+      <publishTime>03/26/2017 23:16:30</publishTime>
+    </File>
+    <File Include="XMLSchemas/CommunicationSchemas/Zain.xml">
+      <publishTime>04/03/2017 01:25:23</publishTime>
+    </File>
+    <File Include="XMLSchemas/ErrorLogs.xml">
+      <publishTime>04/20/2017 23:10:05</publishTime>
+    </File>
+    <File Include="XMLSchemas/RunningBots.xml">
+      <publishTime>04/22/2017 17:29:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ayaan>
+  <start>
+    <msg>aoa</msg>
+    <msg>assalam aliakum</msg>
+    <msg>assalam o alaikum</msg>
+    <msg>salam</msg>
+    <msg>aoa room</msg>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+    <msg>Hello room</msg>
+  </start>
+  <begin>
+    <msg>how r u guys?</msg>
+    <msg>How are you?</msg>
+    <msg>i m frm india?</msg>
+    <msg>is there any 1 from india?</msg>
+    <msg>howz going today?</msg>
+    <msg>delhi, india</msg>
+    <msg>yup!</msg>
+    <msg>Hi, i am ayaan, from india</msg>
+    <msg>any 1 wonna chat?</msg>
+    <msg>I'm OK u</msg>
+  </begin>
+  <communication>
+    <msg>whats so funny, hahaha</msg>
+    <msg>I am not a girl lol</msg>
+    <msg>nope lol,  I have one too</msg>
+    <msg>yup!!</msg>
+    <msg>thats great</msg>
+    <msg>koi hai free??</msg>
+    <msg>chat</msg>
+    <msg>Alright</msg>
+    <msg>pait ma dard ho rha ha</msg>
+    <msg>khi boy intro mat strart krna plz</msg>
+    <msg>loool</msg>
+    <msg>then mumy dady kuri</msg>
+    <msg>hun e na akh daie ma pathan</msg>
+    <msg>pehele yeh batao yeh nick kyun rakha???</msg>
+    <msg>nooo i like 4 bottle vodka</msg>
+    <msg>Is mosam main Tea main keelay daboo ker khanay wala</msg>
+    <msg>Italian food</msg>
+    <msg>Give and take philosophy follow krti hain aap?</msg>
+    <msg>AHaaaan</msg>
+    <msg>O bhai aashiq to nai hogya?</msg>
+    <msg>bhai tabiat theek he aap ki</msg>
+    <msg>Zaroor milna chahiye hm b bohat ghamgeen hai</msg>
+    <msg>kya tabiat thek hain bhai aap ki??</msg>
+    <msg>You cheated on me from behind</msg>
+    <msg>No no NOOOOO</msg>
+    <msg>ni bhai aise shook ni hain mujhee</msg>
+    <msg>yaar koi isee chup keraa deee!!</msg>
+    <msg>me tumhe pyaar ni kerta hun, coz mujhee larkiyaan pasand hain</msg>
+    <msg>bhai sambal jaaa, me larkaa hun loooooooooollllllLLLL</msg>
+    <msg>aree ni bhai usee tou pehlee he bata dya thaa</msg>
+    <msg>I hate you lol</msg>
+    <mgs>koi larki ni milee to mereee pecheee per gayee hooo???</mgs>
+    <msg>kya maslaa hee ap ko???</msg>
+    <msg>Buhaahahah this room is hojacjed by athray punjabis bulao malka nu</msg>
+    <msg>tmhari maan ka p h ud</msg>
+    <msg>looool</msg>
+  </communication>
+  <end>
+    <msg>me ja raha hun</msg>
+    <msg>ok byee</msg>
+    <msg>ok Good bye</msg>
+    <msg>Allah Hafiz all</msg>
+  </end>
+</ayaan>

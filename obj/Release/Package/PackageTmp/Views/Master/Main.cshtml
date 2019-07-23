@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-us" prefix="og: http://ogp.me/ns#">
+<head>
+
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="../content/images/favicon.png" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <meta name="title" content="@ViewBag.Title" />
+    <meta name="description" content="@ViewBag.MetaDescription" />
+    <meta name="keywords" content="@ViewBag.MetaKeywords" />
+
+    <meta property="og:url" content="https://www.chatfunky.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="@ViewBag.Title" />
+    <meta property="og:description" content="@ViewBag.MetaDescription" />
+    <meta property="og:image" content="https://www.chatfunky.com/content/images/banner.png" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="Chatfunky">
+    <meta name="twitter:title" content="@ViewBag.Title">
+    <meta name="twitter:description" content="@ViewBag.MetaDescription">
+    <meta name="twitter:image" content="https://www.chatfunky.com/content/images/banner.png">
+
+    <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+
+    @Styles.Render("~/mainCss")
+    @RenderSection("cssStyle", false)
+
+    @Scripts.Render("~/mainJquery")
+    @RenderSection("jScript", false)
+
+</head>
+<body>
+
+    <menu>
+        <div class="topMenu">
+            <div class="icon">
+                <a href="/home">
+                    <img src="../content/images/favicon.png" class="iconImg" alt="chatfunky" title="chatfunky icon">
+                    <p class="menuSiteName">CHAT<span>FUNKY</span></p>
+                    <p class="slogan">say all</p>
+                </a>
+            </div>
+            <div class="tagLine">
+                <p class="tag">Your Online Chat Station!</p>
+                <img src="../content/images/chatsign.png" class="tagImg" alt="chat">
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </menu>
+
+    <section>
+
+        @RenderBody()
+
+    </section>
+
+    <footer>
+        <div class="footerArea">
+            <ul class="footerPrimary">
+                <li>
+                    Links
+                    <div class="footerSecondary">
+                        <p><a href="/terms">Terms of Service</a></p>
+                        <p><a href="/privacy">Privacy Policy</a></p>
+                        <p><a href="/sitemap">Sitemap</a></p>
+                    </div>
+                </li>
+                <li>
+                    Social Like & Share
+                    <div class="footerSecondary">
+                        <p>Like our page & connect with us.</p>
+                        <p>Share our network.</p>
+                        <div class="socialShare">
+                            <div class="fb-like" data-href="https://www.facebook.com/chatfunky" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true"></div>
+                            <div class="fb-share-button" data-href="https://www.chatfunky.com" data-layout="button_count" data-size="small" data-mobile-iframe="false"></div>
+                        </div>
+                        <div class="socialShare">
+                            <div class="g-plus" data-action="share" data-annotation="bubble" data-href="https://www.chatfunky.com"></div>
+                            <script type="IN/Share" data-url="https://www.chatfunky.com" data-counter="right">
+                            </script>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    Contact Us
+                    <div class="footerSecondary">
+                        <p><input type="text" placeholder="Email" class="emailMsg" /></p>
+                        <p><textarea placeholder="Message" class="messageMsg"></textarea></p>
+                        <p><input type="button" value="Send" class="msgSend" /></p>
+                    </div>
+                </li>
+            </ul>
+            <div style="clear:both"></div>
+        </div>
+        <div class="footerBottom">
+            <div class="bottomSec">
+                <div class="futureInfo">
+                    <p>© 2016 Chatfunky.com. All rights reserved.</p>
+                    <p class="chatfunkyMode">Beta Mode</p>
+                </div>
+                <img src="../content/images/androidapp.png" class="androidImage" alt="chatfunky android" />
+                <p style="clear:both"></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

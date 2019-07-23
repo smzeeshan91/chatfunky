@@ -1,0 +1,620 @@
+﻿
+@media only screen and (max-width:1200px) {
+
+    /************************ Internet Error & Audio Message *************************/
+
+    .internetError > div, .audioMessage > div {
+        margin: 35% auto;
+    }
+
+    /*************************** Chat Box ****************************/
+
+    .leftBox {
+        width: 75%;
+    }
+
+    .rightBox {
+        width: Calc(25% - 1px);
+    }
+}
+
+@media only screen and (max-width:1020px) {
+
+    /************************ Internet Error & Audio Message *************************/
+
+    .internetError > div, .audioMessage > div {
+        margin: 35% auto;
+    }
+
+    /*************************** Chat Box ****************************/
+
+    .leftBox {
+        width: 70%;
+    }
+
+    .rightBox {
+        width: Calc(30% - 1px);
+    }
+}
+
+@media only screen and (max-width:979px) {
+
+    /************************* Total Users **************************/
+
+    .totalNo {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    /************************ Internet Error & Audio Message *************************/
+
+    .internetError > div, .audioMessage > div {
+        margin: 40% auto;
+    }
+
+    /*************************** Chat Box ****************************/
+
+    .chatBox {
+        width: 800px;
+        margin: auto;
+    }
+
+    .chatBoxLoading {
+        top: 44%;
+        left: 46%;
+    }
+
+    /*************************** Chat Left Box ****************************/
+
+    .leftBox {
+        width: 550px;
+    }
+
+    /******************************* Chats ********************************/
+
+    .startedChat {
+        width: 110px !important;
+        text-indent: 5px;
+        padding: 10px 5px;
+    }
+
+        .startedChat img {
+            display: none;
+        }
+
+        .startedChat em {
+            margin-top: 0px;
+        }
+
+        .startedChat span {
+            top: 1px;
+            right: -5px;
+            padding: 0px 6px 3px 6px;
+            font-size: 11px;
+        }
+
+    .startedChatSelected {
+        padding-bottom: 9px;
+    }
+
+    .chatNav {
+        margin-top: 7px;
+    }
+
+        .chatNav p {
+            width: 27px;
+            height: 27px;
+        }
+
+    /******************************* Message Area ********************************/
+
+    .chatMsg {
+        height: 380px;
+    }
+
+    .msgParaNewUser {
+        font-size: 14px;
+    }
+
+    .msgPara {
+        font-size: 14px;
+    }
+
+    .msgParaUserTyping img {
+        width: 50px;
+    }
+
+    /******************************** Chat Panel *********************************/
+
+    .emoticonsBtn {
+        width: 40px;
+    }
+
+    .txtBoxMsg {
+        width: 370px;
+    }
+
+    .msgSending {
+        width: 22px;
+        margin-right: 5px;
+    }
+
+    .btnSend {
+        width: 60px;
+    }
+
+    .btnSendFile {
+        width: 30px;
+    }
+
+    /*************************** Chat Right Box ****************************/
+
+    .rightBox {
+        width: 249px;
+    }
+
+    .roomName {
+        padding: 9px 0px 9px 5px;
+    }
+
+    .roomTab {
+        height: 410px;
+    }
+
+    .user {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:799px) {
+
+    /************************ Internet Error & Audio Message *************************/
+
+    .internetError > div, .audioMessage > div {
+        margin: 45% auto;
+    }
+
+    /*************************** Chat Box ****************************/
+
+    .chatBox {
+        width: 640px;
+    }
+
+    .chatBoxLoading {
+        top: 42%;
+    }
+
+    /*************************** Chat Left Box ****************************/
+
+    .leftBox {
+        width: 450px;
+    }
+
+    /******************************* Chats ********************************/
+
+    .startedChat {
+        text-indent: 3px;
+        padding: 5px 5px;
+    }
+
+        .startedChat span {
+            top: 0px;
+        }
+
+    .startedChatSelected {
+        padding-bottom: 4px;
+    }
+
+    .chatNav {
+        margin-top: 2px;
+    }
+
+    /******************************* Message Area ********************************/
+
+    .chatMsg {
+        height: 360px;
+    }
+
+    /******************************** Chat Panel *********************************/
+
+    .emoticonsBtn {
+        width: 30px;
+        height: 35px;
+        background-size: 25px 25px;
+        margin-right: 5px;
+    }
+
+    .txtBoxMsg {
+        width: 274px;
+        height: 35px;
+        text-indent: 5px;
+    }
+
+    .msgSending {
+        width: 20px;
+        height: 35px;
+    }
+
+    .btnSend {
+        width: 64px;
+        height: 35px;
+    }
+
+    .btnSendFile {
+        height: 35px;
+    }
+
+    /*************************** Chat Right Box ****************************/
+
+    .rightBox {
+        width: 189px;
+    }
+
+    .roomName {
+        padding: 5px 0px 5px 5px;
+    }
+
+    .search {
+        padding: 5px 5px;
+    }
+
+    .roomTab {
+        height: 383px;
+    }
+
+    .userImg {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+
+    .userInfo {
+        margin-top: 2px;
+    }
+
+    .user span.youUser {
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+
+    /************************ Internet Error & Audio Message *************************/
+
+    .internetError > div, .audioMessage > div {
+        margin: 70% auto;
+    }
+
+    /*************************** Section ****************************/
+
+    section {
+        padding: 44px 0px 30px 0px;
+    }
+
+    /*************************** Chat Box ****************************/
+
+    .chatBox {
+        width: 100%;
+    }
+
+    .chatBoxInitial {
+        height: 440px;
+    }
+
+    .chatBoxLoading {
+        top: 44%;
+        left: 43%;
+    }
+
+    /*************************** Chat Left Box ****************************/
+
+    .leftBox {
+        width: 100%;
+    }
+
+    /******************************* Chats ********************************/
+
+    .startedChat {
+        padding: 7px 0px 7px 0px;
+        margin-right: 1px !important;
+    }
+
+        .startedChat span {
+            top: 0px;
+            right: 0px;
+            padding: 0px 6px 2px 6px;
+            border-width: 2px;
+            font-size: 12px;
+            text-indent: 0px;
+            height: auto;
+        }
+
+    .startedChatSelected {
+        padding-bottom: 6px;
+    }
+
+    .chatNav {
+        margin-top: 1px;
+    }
+
+        .chatNav p {
+            padding: 2px 5px 3px 5px;
+        }
+
+    /******************************* Message Area ********************************/
+
+    .chatMsg {
+        height: 330px;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .msgParaNewUser {
+        font-size: 15px;
+    }
+
+    .msgPara {
+        font-size: 15px;
+    }
+
+    /******************************** Chat Panel *********************************/
+
+    .chatPanel {
+        padding: 2px 2px;
+    }
+
+    .emoticonsBtn {
+        height: 40px;
+        width: 8%;
+        margin-right: 1%;
+        background-image: url('/content/images/emoticons/smiley6.png');
+    }
+
+    .txtBoxMsg {
+        width: 60%;
+        height: 40px;
+        margin-right: -1px;
+        text-indent: 3px;
+    }
+
+    .msgSending {
+        width: 5%;
+        height: 40px;
+        margin-right: 1%;
+    }
+
+    .btnSend {
+        width: 15%;
+        height: 40px;
+        padding: 0px;
+        font-weight: normal;
+        font-weight: bold;
+    }
+
+    .btnSendFile {
+        width: 8%;
+        height: 40px;
+    }
+
+    /*************************** Chat Right Box ****************************/
+
+    .showRightBox {
+        width: 100%;
+        display: block;
+    }
+
+    .dimBody {
+        opacity: 0.3;
+        pointer-events: none;
+    }
+
+    .rightBox #mobileClose::before {
+        content: "X";
+        position: absolute;
+        background: #606061;
+        color: white;
+        top: -16px;
+        padding: 4px 10px 4px 10px;
+        border-radius: 15px;
+        cursor: pointer;
+        left: 324px;
+    }
+
+    .rightBox {
+        position: absolute;
+        top: 43%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        border: 0px solid transparent;
+        border-top-width: 1px;
+        border-top-color: lightgrey;
+        display: none;
+    }
+
+    .roomName {
+        display: none;
+    }
+
+    .roomTab {
+        border: none;
+        padding: 0px;
+        height: auto;
+    }
+
+    .user {
+        font-size: 15px;
+        padding: 5px 5px 5px 5px;
+        margin-bottom: 2px;
+    }
+
+    .userImg {
+        width: 30px;
+        height: 30px;
+        margin-top: 2px;
+        margin-right: 10px;
+        background-color: white;
+    }
+
+    .userInfo {
+        margin-top: 0px;
+    }
+
+    .user span.youUser {
+        display: normal;
+        clear: none;
+        margin: 4px 0px 0px 10px;
+    }
+
+    .userOptImg {
+        height: 20px;
+        margin: 7px 10px 0px 0px;
+        display: block;
+    }
+
+    .userOptions::before {
+        content: "";
+        position: absolute;
+        right: 9px;
+        top: -21px;
+        border-top: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid gray;
+    }
+
+    .userOptions::after {
+        left: 70px;
+        top: -20px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+
+    .userPhoto {
+        display: block;
+        margin: auto;
+    }
+
+    .options {
+        float: none;
+        text-align: center;
+        margin: 5px auto;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    /************************ Internet Error & Audio Message *************************/
+
+    .internetError > div, .audioMessage > div {
+        margin: 80% auto;
+    }
+
+    /*************************** Section ****************************/
+
+    section {
+        padding: 51px 0px 20px 0px;
+    }
+
+    /*************************** Chat Box ****************************/
+
+    .chatBox {
+        width: 100%;
+    }
+
+    .chatBoxInitial {
+        height: 410px;
+    }
+
+    .chatBoxLoading {
+        top: 40%;
+        left: 40%;
+    }
+
+    /*************************** Chat Left Box ****************************/
+
+    .leftBox {
+        width: 100%;
+    }
+
+    audio {
+        width: 200px;
+    }
+
+    /******************************* Chats ********************************/
+
+    .startedChat {
+        width: 110px !important;
+        text-indent: 5px;
+    }
+
+        .startedChat em {
+            font-weight: normal;
+        }
+
+    .chatNav p {
+        padding: 2px 3px 3px 3px;
+    }
+
+    /******************************* Message Area ********************************/
+
+    .chatMsg {
+        height: 250px;
+    }
+
+    /*************************** Chat Right Box ****************************/
+
+    .showRightBox {
+        width: 100%;
+    }
+
+    .rightBox #mobileClose::before {
+        top: -20px;
+        left: 280px;
+    }
+
+    .rightBox {
+        position: absolute;
+        top: 38%;
+        width: 300px;
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .roomTab {
+        height: auto;
+    }
+
+    .userInfo {
+        margin-top: 0px;
+    }
+
+    .user {
+        font-size: 14px;
+    }
+
+        .user em {
+            margin-top: 6px;
+            display: block;
+        }
+
+        .user span {
+            display: none;
+        }
+
+            .user span.youUser {
+                display: block;
+                margin: 5px 0px 0px 10px;
+            }
+
+    .userOptImg {
+        margin: 6px 10px 0px 0px;
+    }
+}

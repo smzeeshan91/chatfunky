@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Panel/Master/Main.cshtml";
+}
+
+<div class="loginArea">
+
+    <div class="adminText">
+        Administrator's Panel
+    </div>
+
+    <div class="loginBox">
+        @using (Html.BeginForm("Login", "Panel", FormMethod.Post))
+        {
+            <p class="loginTxt">Sign In</p>
+            <input type="password" placeholder="Code" name="code" id="code" class="txtBoxCode txtBoxUserName" maxlength="10" />
+            if (ViewBag.Error != null)
+            {
+                <p class="loginError">@ViewBag.Error</p>
+            }
+            <input type="submit" value="O" class="joinBtn" />
+        }
+    </div>
+
+</div>

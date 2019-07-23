@@ -1,0 +1,396 @@
+USE [ChatfunkyDB]
+GO
+/****** Object:  StoredProcedure [dbo].[AddNewMod]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[AddNewMod]
+
+	@Username		varchar(15),
+	@Password		varchar(12)
+
+AS
+
+BEGIN
+
+		Insert Into ModTable 
+		Values(@Username, @Password)
+
+		Select Count(*) From ModTable Where Username=@Username
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[AddNewUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[AddNewUser] 
+
+	@ID				int,
+	@IsMod			int,
+	@ConnectionId	varchar(50),
+	@Username		nvarchar(15),
+	@Gender			varchar(6),
+	@Age			int,
+	@Photo			varchar(300),
+	@Blocks			nvarchar(500)
+
+AS
+
+BEGIN
+
+		Insert Into UserTable 
+		Values(@ID, @IsMod, @ConnectionId, @Username, @Gender, @Age, @Photo, @Blocks, (dateadd(hour,(5),getutcdate())))
+
+		Select Count(*) From UserTable Where Username=@Username
+
+END
+
+GO
+/****** Object:  StoredProcedure [dbo].[BlockUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[BlockUser] 
+
+	@Username			nvarchar(15),
+	@Blocks				nvarchar(500)
+
+AS
+
+BEGIN
+
+		Update UserTable 
+		Set Blocks=@Blocks Where Username=@Username
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[DeleteMod]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[DeleteMod]
+
+	@Username	varchar(15)
+
+AS
+
+BEGIN
+
+		Delete From ModTable 
+		Where Username=@Username;
+
+		Select Count(*) From ModTable Where Username=@Username
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[DeleteUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[DeleteUser] 
+
+	@Username	varchar(15)
+
+AS
+
+BEGIN
+
+		Delete From UserTable 
+		Where Username=@Username
+
+		Select Count(*) From UserTable Where Username=@Username
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[GetMods]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetMods]
+
+AS
+
+BEGIN
+
+		Select Username From ModTable
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[GetSignupUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetSignupUser]
+
+	@Username		nvarchar(15),
+	@Password		nvarchar(15)
+
+As
+
+Begin
+
+	Select * From SignupUsers Where Username=@Username AND [Password]=@Password
+
+End
+GO
+/****** Object:  StoredProcedure [dbo].[GetUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetUser] 
+
+	@Username		nvarchar(15),
+	@ConnectionId	varchar(50)
+
+AS
+
+BEGIN
+
+		If NULLIF(@ConnectionId,'') IS NULL
+			Select * From UserTable Where Username=@Username OR ConnectionId=NULL
+		Else If NULLIF(@Username,'') IS NULL
+			Select * From UserTable Where Username=NULL OR ConnectionId=@ConnectionId
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[GetUsers]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetUsers] 
+
+AS
+
+BEGIN
+
+		Select * From UserTable
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[GetUsersCount]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetUsersCount]
+
+AS
+
+BEGIN
+
+		Select COUNT(*) From UserTable
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[IsIdExist]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[IsIdExist]
+
+	@ID			int
+
+As
+
+Begin
+
+	Select Count(*) From UserTable Where ID=@ID
+
+End
+GO
+/****** Object:  StoredProcedure [dbo].[IsSignupIdExist]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[IsSignupIdExist]
+
+	@ID		int
+
+As
+
+Begin
+
+	Select Count(*) From SignupUsers Where ID=@ID
+
+End
+GO
+/****** Object:  StoredProcedure [dbo].[IsSignupUserExist]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[IsSignupUserExist]
+
+	@Username		nvarchar(15)
+
+AS
+
+Begin
+
+	Select Count(*) From SignupUsers Where Username=@Username
+
+End
+GO
+/****** Object:  StoredProcedure [dbo].[RejoinUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[RejoinUser] 
+
+	@ConnectionId	varchar(50),
+	@Username		nvarchar(15)
+
+AS
+
+BEGIN
+
+		Update UserTable 
+		Set ConnectionId=@ConnectionId, ConnectTime=(dateadd(hour,(5),getutcdate())) Where Username=@Username
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SignupNewUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SignupNewUser]
+
+		@ID				int,
+		@Username		nvarchar(15),
+		@Password		nvarchar(15),
+		@Gender			varchar(6),
+		@Age			int
+
+AS
+
+Begin
+
+	Insert Into SignupUsers
+	Values (@ID, @Username, @Password, @Gender, @Age, (DATEADD(HOUR,(5),GETUTCDATE())))
+
+	Select Count(*) From SignupUsers Where Username=@Username
+
+End
+GO
+/****** Object:  StoredProcedure [dbo].[UpdateUser]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[UpdateUser]
+
+	@ID				int,
+	@ConnectionId	varchar(50)
+
+As
+
+Begin
+
+	Update UserTable
+	Set ConnectionId=@ConnectionId, ConnectTime=(dateadd(hour,(5),getutcdate()))
+	Where ID=@ID
+
+	Select Count(*) From UserTable Where ID=@ID
+
+End
+GO
+/****** Object:  StoredProcedure [dbo].[ValidateMod]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[ValidateMod] 
+
+	@Username		nvarchar(15),
+	@Password		varchar(12)
+
+AS
+
+BEGIN
+
+		Select * From ModTable 
+		Where Username=@Username And [Password]=@Password
+
+END
+GO
+/****** Object:  Table [dbo].[ModTable]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[ModTable](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Username] [varchar](15) NOT NULL,
+	[Password] [varchar](12) NOT NULL,
+ CONSTRAINT [PK_ModTable] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[SignupUsers]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[SignupUsers](
+	[SNo] [int] IDENTITY(1,1) NOT NULL,
+	[ID] [int] NOT NULL,
+	[Username] [nvarchar](15) NOT NULL,
+	[Password] [nvarchar](15) NOT NULL,
+	[Gender] [varchar](50) NOT NULL,
+	[Age] [int] NOT NULL,
+	[RegisterDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_SignupUsers] PRIMARY KEY CLUSTERED 
+(
+	[SNo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[UserTable]    Script Date: 4/22/2017 3:41:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[UserTable](
+	[SNo] [int] IDENTITY(1,1) NOT NULL,
+	[ID] [int] NOT NULL,
+	[IsMod] [int] NOT NULL,
+	[ConnectionId] [varchar](50) NOT NULL,
+	[Username] [nvarchar](15) NOT NULL,
+	[Gender] [varchar](50) NOT NULL,
+	[Age] [int] NOT NULL,
+	[Photo] [varchar](300) NULL,
+	[Blocks] [nvarchar](500) NULL,
+	[ConnectTime] [datetime] NOT NULL,
+ CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
+(
+	[SNo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]

@@ -1,0 +1,561 @@
+﻿body {
+    margin: 0px;
+    font-family: 'Open Sans', 'Khmer UI', sans-serif;
+}
+
+input, textarea, select {
+    font-family: 'Open Sans', 'Khmer UI', sans-serif;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*************************** Menu ****************************/
+
+menu {
+    width: 100%;
+    background-color: #36a68d;
+    margin: 0;
+    margin-left: -40px;
+    position: fixed;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.topMenu {
+    width: 980px;
+    margin: auto;
+    font-size: 22px;
+}
+
+.icon {
+    float: left;
+}
+
+.iconImg {
+    height: 42px;
+    padding-top: 4px;
+    float: left;
+}
+
+.menuSiteName {
+    float: left;
+    margin: 9px 0px 0px 3px;
+    font-weight: bolder;
+    color: white;
+}
+
+    .menuSiteName span {
+        color: #77C5F1;
+    }
+
+.slogan {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6cff00;
+    font-style: italic;
+    font-family: 'Monotype Corsiva', 'initial';
+    float: left;
+    margin-top: 25px;
+}
+
+.tagLine {
+    float: right;
+    color: white;
+}
+
+.tag {
+    float: left;
+    padding-top: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.tagImg {
+    width: 60px;
+    height: 40px;
+    padding-top: 4px;
+}
+
+/*************************** Section ****************************/
+
+section {
+    padding-top: 50px;
+}
+
+/************************* Intro *************************/
+
+.intro {
+    padding: 9.5% 0% 9.5% 0%;
+    color: white;
+    background-image: url('/content/images/people.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+    .intro .area {
+        background: rgba(255,0,0,0.7);
+    }
+
+    .intro .content {
+        width: 980px;
+        margin: auto;
+        padding: 20px 0px 40px 0px;
+        text-align: center;
+    }
+
+    .intro h1 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 50px;
+        text-shadow: 0px 0px 5px white;
+    }
+
+    .intro p {
+        font-size: 22px;
+        line-height: 1.2em;
+    }
+
+.mainJoinBtn {
+    padding: 8px 50px;
+    margin: 10px auto auto auto;
+    background-color: #36a68d;
+    font-size: 18px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+    .mainJoinBtn:hover {
+        background-color: #399681;
+    }
+
+/************************ Promotion Area ************************/
+
+.promotion {
+    padding: 50px 0px;
+}
+
+    .promotion .content {
+        width: 980px;
+        margin: auto;
+        text-align: center;
+        color: black;
+    }
+
+    .promotion h3 {
+        width: 690px;
+        font-weight: 500;
+        font-size: 35px;
+        color: #32BEEB;
+        margin: auto auto 20px auto;
+        padding-bottom: 5px;
+    }
+
+    .promotion p {
+        color: gray;
+        font-size: 22px;
+    }
+
+/************************ Social Area ************************/
+
+.social {
+    margin-bottom: 10px;
+}
+
+.features {
+}
+
+.featureBlock {
+    width: 20%;
+    height: 265px;
+    float: left;
+    text-align: center;
+    cursor: default;
+    color: gray;
+}
+
+.imgBlock {
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border: 8px solid #B9CF00;
+    border-radius: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 60px lightgray inset;
+}
+
+.featureBlock h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #36a68d;
+}
+
+.featureBlock p {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+/******************** Business Description **********************/
+
+.businessDescription {
+    box-shadow: 0px -100px 100px -70px lightgray inset;
+    background: linear-gradient(to bottom, #f0eff5, lightgray);
+}
+
+    .businessDescription .content {
+        width: 980px;
+        margin: auto;
+        padding: 40px 0px 40px 0px;
+        text-align: center;
+        color: lightslategray;
+        font-size: 22px;
+    }
+
+/************************* Total Users **************************/
+
+.totalUsers {
+    padding: 10px 0px 10px 0px;
+    background-color: #77C5F1;
+}
+
+.totalNo {
+    width: 170px;
+    color: white;
+    margin: auto;
+    font-size: 22px;
+}
+
+    .totalNo span {
+        color: #6cff00;
+    }
+
+/************************ Login Area ************************/
+
+.loginArea {
+    padding: 100px 0px 100px 0px;
+    background-color: #f8f8f8;
+}
+
+.box {
+    width: 600px;
+    margin: auto;
+}
+
+.loginBox {
+    width: 350px;
+    float: left;
+}
+
+    .loginBox form {
+        width: inherit;
+    }
+
+.loginTxt {
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border: 0px solid lightgray;
+    border-bottom-width: 1px;
+    color: gray;
+}
+
+.lblUpload {
+    width: 0px;
+    height: 0px;
+    font-size: 13px;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    border: 1px solid gray;
+    float: left;
+    opacity: 0.3;
+    display: table;
+    padding: 48px 45px 48px 45px;
+}
+
+    .lblUpload:hover {
+        opacity: 0.4;
+        border: 1px solid black;
+    }
+
+.lblUploaded {
+    opacity: 1;
+    width: 37px;
+    height: 18px;
+}
+
+.lblUploadedie {
+    background-color: #36a68d;
+    opacity: 0.5;
+    color: white;
+    padding: 48px 34px 48px 34px;
+}
+
+.infoArea {
+    float: right;
+    width: 200px;
+}
+
+.txtBoxUserName {
+    width: Calc(100% - 2px);
+    text-indent: 7px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 5px 0px 5px 0px;
+}
+
+.moreOptions {
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    color: #36a68d;
+}
+
+    .moreOptions:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.opt {
+    width: 170px;
+}
+
+.gender, .age {
+    width: 80px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 5px 0px 5px 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('/content/images/ddarrow.png') no-repeat right;
+}
+
+.loginError {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.joinBtn {
+    width: 100px;
+    height: 30px;
+    background-color: #36a68d;
+    border: none;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+    .joinBtn:hover {
+        background-color: #399681;
+    }
+
+.signinBox {
+    width: 200px;
+    float: right;
+    background-color: #f8f8f8;
+}
+
+.loginOptions:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: relative;
+    display: block;
+    top: 12px;
+    background: lightgray;
+}
+
+.loginOptions {
+    margin-bottom: 36px;
+}
+
+    .loginOptions p {
+        font-size: 14px;
+        color: #36a68d;
+        position: relative;
+        width: 110px;
+        text-align: center;
+        margin: auto;
+        background-color: #f8f8f8;
+    }
+
+.socialBtn {
+    width: inherit;
+    height: 30px;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+.fbLogin {
+    background-color: #617cb4;
+    background-image: url('/content/images/fblogin.png');
+}
+
+    .fbLogin:hover {
+        background-color: #5171b5;
+    }
+
+.googleLogin {
+    background-color: lightgray;
+    background-image: url('/content/images/googlelogin.png');
+}
+
+    .googleLogin:hover {
+        background-color: #c7c8c9;
+    }
+
+.linkedinLogin {
+    background-color: #65b6e0;
+    background-image: url('/content/images/linkedinlogin.png');
+}
+
+    .linkedinLogin:hover {
+        background-color: #54aedd;
+    }
+
+/*************************** Footer ****************************/
+
+footer {
+    background-color: #2b303e;
+}
+
+.footerArea {
+    width: 980px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.footerPrimary {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .footerPrimary li {
+        width: 326px;
+        float: left;
+        font-size: 18px;
+        color: white;
+    }
+
+.footerSecondary {
+    width: inherit;
+    margin-top: 10px;
+}
+
+    .footerSecondary p {
+        width: calc(100% - 10px);
+        font-size: 14px;
+        color: #a8adb3;
+    }
+
+    .footerSecondary a {
+        text-decoration: none;
+        color: #a8adb3;
+    }
+
+        .footerSecondary a:hover {
+            color: lightgray;
+        }
+
+.footerSecondarylast p {
+    width: inherit;
+    padding-right: 0px;
+}
+
+.fbLink {
+    margin-top: 5px;
+    margin-left: -4px;
+    border: none;
+}
+
+.fb-share-button, .fb-like {
+    /*display: flex !important;
+    float: left;
+    margin-right: 10px;*/
+}
+
+.socialShare {
+    margin-top: 10px;
+}
+
+.emailMsg {
+    width: 321px;
+    height: 25px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    background-color: #575656;
+    border: none;
+    color: #a8adb3;
+}
+
+.messageMsg {
+    width: 319px;
+    height: 60px;
+    padding-left: 5px;
+    resize: none;
+    margin-bottom: 1px;
+    background-color: #575656;
+    border: none;
+    color: #a8adb3;
+    overflow: hidden;
+}
+
+.msgSend {
+    width: 30%;
+    height: 25px;
+    background-color: #575656;
+    border: none;
+    color: #a8adb3;
+}
+
+    .msgSend:hover {
+        color: white;
+    }
+
+.footerBottom {
+    padding: 20px 0px 20px 0px;
+    background-color: #1b1b1a;
+    font-size: 14px;
+}
+
+.bottomSec {
+    width: 980px;
+    margin: auto;
+    color: white;
+}
+
+.futureInfo {
+    float: left;
+}
+
+.chatfunkyMode {
+    height: 0px;
+    width: 100px;
+    text-indent: 5px;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 20px solid #945a58;
+    border-right: 20px solid #1b1b1a;
+}
+
+.androidImage {
+    float: right;
+}

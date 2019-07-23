@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<manal>
+  <start>
+    <msg>hi room</msg>
+    <msg>23 f, anyone wonna chat</msg>
+    <msg>hi all</msg>
+    <msg>hello room</msg>
+    <msg>Hi</msg>
+    <msg>Assalamalikum</msg>
+    <msg>hi</msg>
+    <msg>Hello</msg>
+  </start>
+  <begin>
+    <msg>how are you?</msg>
+    <msg>how are you? u frm?</msg>
+    <msg>me frm isl, u?</msg>
+    <msg>hahhah</msg>
+  </begin>
+  <communication>
+    <msg>i am girl lolx</msg>
+    <msg>me lady hun</msg>
+    <msg>hi cracker, kase ho?</msg>
+    <msg>Hawww aap chhaty mn mar jaoun inny zalim kab sy bny</msg>
+    <msg>aashqii choor do, yeh pooranee tootkee thee lolx</msg>
+    <msg>Acha</msg>
+    <msg>nice</msg>
+    <msg>hahahhaha kon he woh</msg>
+    <msg>hayeee kya yad krwa dia ap nyy</msg>
+    <msg>why ??</msg>
+    <msg>tum donoo ke kharaab hain hahahahaha</msg>
+    <msg>larkee dhokee baaz hote hain lolx</msg>
+    <msg>iraada tu yahi lgta h janab ka</msg>
+    <msg>me itni jaldii ni maano ge</msg>
+    <msg>admin 1 month ban kr do mujhe ....? plzz</msg>
+    <msg>hahahahah ahha</msg>
+    <msg>Yh kb tk open hyn ???</msg>
+    <msg>acha</msg>
+    <msg>i said aap be rang kaisy ho gy?</msg>
+    <msg>noooo</msg>
+    <msg>thanks</msg>
+    <msg>koi free nhi ha</msg>
+    <msg>Stop laughing</msg>
+    <msg>ana he nahi mena ab is room me lolx</msg>
+    <msg>jab ayoo tum donoo pareshaan kertee ho</msg>
+    <msg>arey abhi ki bat hai thori dair pehly ki</msg>
+    <msg>burii baat ..</msg>
+    <msg>wait .... me baat krtii hu</msg>
+    <msg>Yahan koi mera fake Nick use Kar raha ha lagta he </msg>
+    <msg>Kisi nay deakha ha</msg>
+    <msg>acha phr mn kisi or ko tag kr dia ho ga</msg>
+    <msg>phir aa gy aap? tou me na ayoo lolx</msg>
+    <msg>haan ban karwne admin he nahi</msg>
+    <msg>ahahhaaah</msg>
+    <msg> Ok thanks info ka lol</msg>
+    <msg>jaldi krwao</msg>
+    <msg>ShShhhhh........bs??</msg>
+  </communication>
+  <end>
+    <msg>ok byee</msg>
+    <msg>TC..</msg>
+    <msg>Tc </msg>
+    <msg>ok by all</msg>
+  </end>
+</manal>

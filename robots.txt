@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /bin
+Disallow: /views
+Disallow: /error.html/
+Disallow: /mod
+Disallow: /panel
+
+Sitemap: https://www.chatfunky.com/sitemap.xml
