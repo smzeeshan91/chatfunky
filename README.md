@@ -1,6 +1,6 @@
 
 <h1>Chatfunky: Live Chat | Free Text & Media Messages</h1>
-
+<br/>
 <p>Chatfunky is not only a web based chatting application but my first startup in which I failed badly in 2017.</p>
 <p>&nbsp;</p>
 <p>I worked on this project from May 2016 till June 2017, put my best efforts and investments on it but failed to resolved bugs and targeting a reasonable audience.&nbsp;</p>
@@ -15,6 +15,7 @@
 <p>Microsoft Web Sockets (if SignalR drops)</p>
 <p>HTML Compressor (for compressing HTML code at client side)</p>
 <p>OWIN</p>
+<p>MS SQL 2012</p>
 <p>&nbsp;</p>
 <p><strong>How to Use:</strong></p>
 <ul>
