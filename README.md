@@ -1,3 +1,6 @@
+
+<h1>Chatfunky: Live Chat | Free Text & Media Messages</h1>
+
 <p>Chatfunky is not only a web based chatting application but my first startup in which I failed badly in 2017.</p>
 <p>&nbsp;</p>
 <p>I worked on this project from May 2016 till June 2017, put my best efforts and investments on it but failed to resolved bugs and targeting a reasonable audience.&nbsp;</p>
