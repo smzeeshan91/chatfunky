@@ -3,7 +3,7 @@
 <br/>
 <p>Chatfunky is not only a web based chatting application but my first startup in which I failed badly in 2017.</p>
 <p>&nbsp;</p>
-<p>I worked on this project from May 2016 till June 2017, put my best efforts and investments on it but failed to resolved bugs and targeting a reasonable audience.&nbsp;</p>
+<p>I worked on this project from May 2016 till June 2017, put my best efforts and investments on it but failed to resolved bugs and targeting a reasonable audience. Therefore after 2 years of shutting down the project I am open sourcing its full code&nbsp;</p>
 <p>As the application grew, it gets very difficult for me to handle the application alone as I am individually supporting all things, designing, coding, testing, deployment, server configuration, marketing, social media presence, search engine optimization and mobile app as well.</p>
 <p>Therefore now I am open sourcing this application to the World so that any developer can be benefited by its code and enhance it and try to resolve the bugs that I failed to do so.</p>
 <p>Now come up to the technical part ;p</p>
